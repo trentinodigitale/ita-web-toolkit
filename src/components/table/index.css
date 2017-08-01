@@ -33,9 +33,9 @@
 
 .Table td,
 .Table th {
-  @extend .u-padding-r-all;
-
   text-align: left; /* 1 */
+  
+  padding: 0.5em;
 }
 
 .Table--fixed {
