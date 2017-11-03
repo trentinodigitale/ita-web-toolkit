@@ -116,6 +116,39 @@
   font-size: 1.6rem;
 }
 
+/* banner */
+
+.u-content .u-content-main .u-flow-banner {
+  @extend .u-margin-all-xs;
+  @extend .u-background-grey-10;
+  min-height: 12rem;
+}
+
+.u-content .u-content-main .u-flow-banner .u-banner-icon {
+  @extend .u-color-white;
+  @extend .u-textCenter;
+  @extend .u-padding-all-s;
+  float: left;
+  font-size: 6rem;
+  height: 12rem;
+  width: 9rem;
+}
+
+.u-content .u-content-main .u-flow-banner .u-banner-content {
+  @extend .u-padding-all-s;
+  float: none;
+  height: 10rem;
+  margin-left: 12rem;
+}
+
+.u-content .u-content-main .u-flow-banner .u-banner-content .u-banner-title {
+  font-weight: bold;
+}
+
+.u-content .u-content-main .u-flow-banner .u-banner-content .u-banner-subtitle {
+  @extend .u-margin-top-xs;
+}
+
 .u-content .u-content-related {
   @extend .Grid-cell;
   @extend .u-md-size1of3;
@@ -147,7 +180,7 @@
 }
 
 .u-content .u-content-related .u-content-related-item .Prose ul {
-  margin-left: 2rem !important;
+  margin-left: 3rem !important;
 }
 
 .u-content .u-content-related .u-content-related-item .Prose > ul > li {
@@ -172,4 +205,20 @@
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
   @extend .u-margin-bottom-xl;
+}
+
+/*
+ * SEARCH
+ */
+
+.FullSearch .search-cell {
+  @extend .u-padding-all-xxxl;
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .FullSearch .search-cell {
+    @extend .u-padding-all-l;
+  }
+
 }
