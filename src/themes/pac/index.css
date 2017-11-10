@@ -1,15 +1,15 @@
 :root {
-  --Color-primary: #0092d0;
+  --Color-primary: #66bb6a;
   --Color-text: #30373d;
   --Color-5: #e1f5fe;
   --Color-10: #b3e5fc;
   --Color-20: #81dafa;
   --Color-30: #4fc3f7;
-  --Color-40: #29b6f6;
-  --Color-50: #0092d0;
-  --Color-60: #039be5;
+  --Color-40: #81c784;
+  --Color-50: #66bb6a;
+  --Color-60: #1976D2;
   --Color-70: #0288d1;
-  --Color-80: #006390;
+  --Color-80: #499358;
   --Color-90: #01579b;
 
   /* --Pac-font-family-sans: "Source Sans Pro", sans-serif; */

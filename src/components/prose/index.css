@@ -70,8 +70,17 @@
   margin-left: 6rem;
 }
 
+.Prose > ul ul {
+  list-style-position: outside;
+  margin-left: 2rem;
+}
+
 .Prose > ul {
   list-style-type: square;
+}
+
+.Prose > ul ul {
+  list-style-type: disc;
 }
 
 .Prose > ol {
