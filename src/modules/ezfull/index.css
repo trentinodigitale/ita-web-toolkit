@@ -222,3 +222,11 @@
   }
 
 }
+
+.Sidemenu {
+  @extend .u-background-grey-80;
+}
+
+.Sidemenu .Treeview-handler--standalone {
+  background-position: center !important;
+}
