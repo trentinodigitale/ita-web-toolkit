@@ -1,16 +1,17 @@
 :root {
   --Color-primary: #0092d0;
-  --Color-text: #30373d;
+  --Color-text: #30373d; /*grigio scuro */
   --Color-5: #e1f5fe;
   --Color-10: #b3e5fc;
   --Color-20: #81dafa;
   --Color-30: #4fc3f7;
   --Color-40: #29b6f6;
   --Color-50: #0092d0;
-  --Color-60: #039be5;
-  --Color-70: #0288d1;
-  --Color-80: #39B7E4;
-  --Color-90: #01579b;
+  --Color-60: #039be5; /* Azzurro */
+  --Color-70: #0288d1; /* Azzurro */
+  --Color-80: #39B7E4; /* Azzurro flash Menu */
+  --Color-90: #01579b; /* Blu scuro */
+  --Color-95: #FF440D; /* Arancione flash */
 
   /* --Pac-font-family-sans: "Source Sans Pro", sans-serif; */
 
@@ -28,7 +29,7 @@
 }
 
 .t-Pac a {
-  color: var(--Color-80);
+  color: var(--Color-95);
 
   text-decoration: none;
 }
