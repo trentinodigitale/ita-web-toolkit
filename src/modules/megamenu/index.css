@@ -143,7 +143,6 @@
 
 .Megamenu--default .Megamenu-subnavGroup > li > a {
   @extend .u-color-95;
-  @extend .u-textUppercase;
   @extend .u-textWeight-700;
   
   font-size: 1.6rem;
@@ -242,6 +241,8 @@
   @extend .u-text-r-xs;
   @extend .u-color-grey-80;
   @extend .u-textClean;
+  
+  font-size: 1.6rem !important;
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {
