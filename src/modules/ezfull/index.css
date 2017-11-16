@@ -223,8 +223,24 @@
 
 }
 
+/*
+ * SIDEMENU
+ */
+
+.u-content .u-content-main-sidemenu {
+  @extend .u-padding-right-xxxl;
+  @extend .u-md-size3of4;
+  @extend .u-lg-size3of4;
+}
+
+.u-content .u-content-related-sidemenu {
+  @extend .Grid-cell;
+  @extend .u-md-size1of4;
+  @extend .u-lg-size1of4;
+}
+
 .Sidemenu {
-  @extend .u-background-grey-80;
+  @extend .u-background-80;
 }
 
 .Sidemenu .Treeview-handler--standalone {
