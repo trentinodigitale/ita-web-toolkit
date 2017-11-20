@@ -36,6 +36,9 @@
   @extend .u-text-h4;
   @extend .u-margin-r-bottom;
   @extend .u-layout-prose;
+  
+  margin-top: 3rem !important;
+  margin-bottom: 0 !important;
 }
 
 .Card-titleLink {
