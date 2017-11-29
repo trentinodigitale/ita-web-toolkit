@@ -1,6 +1,9 @@
 /** @define Card; */
 
 .Card {
+  @extend .u-borderShadow-m;
+  @extend .u-background-white;
+  
   overflow: hidden;
 }
 

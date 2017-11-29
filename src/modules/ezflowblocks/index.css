@@ -19,8 +19,9 @@
  */
 
 .u-flow-panels {
-  @extend .u-layout-centerContent;
   @extend .u-padding-r-top;
+  margin-left: -10rem;
+  margin-right: -10rem;
 }
 
 .u-flow-panels section {
@@ -28,6 +29,8 @@
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
   @extend .u-text-r-s;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .u-flow-panels section h2 {
