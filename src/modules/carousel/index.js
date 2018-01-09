@@ -15,7 +15,7 @@ const opts = {
   owlOpts: {
     nav: false,
     // navText: ['precedente', 'successivo'],
-    items: 3,
+    items: 4,
     dots: false,
     loop: false,
     margin: 16,
@@ -27,10 +27,10 @@ const opts = {
         items: 1
       },
       768: {
-        items: 2
+        items: 3
       },
       992: {
-        items: 3
+        items: 4
       }
     }
   }

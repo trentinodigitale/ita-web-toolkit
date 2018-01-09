@@ -33,6 +33,10 @@
   margin-right: 10rem;
 }
 
+.u-flow-panels section h1 {
+  @extend .u-color-50;
+}
+
 .u-flow-panels section h2 {
   @extend .u-text-r-s;
   @extend .u-color-50;
@@ -58,6 +62,21 @@
   @media (--lg-viewport) {
     min-height: 16rem;
   }
+}
+
+.u-flow-panels section .arrow {
+  margin-top: -39px;
+}
+
+.u-flow-panels section .arrow .arrow-draw {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
 }
 
 .u-flow-panels section .u-flow-panel-comunicato {
@@ -172,6 +191,25 @@
   margin-right: 10rem;
 }
 
+.u-flow-links section .arrow {
+  margin-top: -39px;
+}
+
+.u-flow-links section .arrow .arrow-draw {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.u-flow-links section h1 {
+  @extend .u-color-50;
+}
+
 .u-flow-links section h2 {
   @extend .u-text-r-s;
   @extend .u-color-50;
@@ -252,6 +290,10 @@
   @extend .u-padding-r-bottom;
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+.u-flow-map section h1 {
+  @extend .u-color-50;
 }
 
 .u-flow-map .u-map-title h2 {
