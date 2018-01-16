@@ -15,8 +15,9 @@
   --Color-teal-50: #65dcdf;
   --Color-teal-70: #004a4d;
   --Color-focus: #ff8c00;
-  --Color-compl: #83b81a;
-  --Color-compl-5: #cbd300;
+  --Color-compl: #4caf50;
+  --Color-compl-5: #43a047;
+  --Color-compl-10: #388e3c;
 }
 
 /*
@@ -256,7 +257,7 @@
 }
 
 .u-color-compl-5 {
-  color: cvar(--Color-compl-5) !important;
+  color: var(--Color-compl-5) !important;
 }
 
 .u-background-compl-5 {
@@ -264,11 +265,11 @@
 }
 
 .u-color-compl-10 {
-  color: color(var(--Color-primary) h(+180) s(30%) l(90%)) !important;
+  color: var(--Color-compl-10) !important;
 }
 
 .u-background-compl-10 {
-  background-color: color(var(--Color-primary) h(+180) s(30%) l(90%)) !important;
+  background-color: var(--Color-compl-10) !important;
 }
 
 .u-color-compl-80 {

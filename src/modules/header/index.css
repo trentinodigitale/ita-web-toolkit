@@ -9,7 +9,7 @@
 .Header-banner {
   @extend .u-cf;
   @extend .u-sizeFull;
-  @extend .u-background-text;
+  @extend .u-background-compl-5;
   @extend .u-color-60;
   padding-left: 8.33333%;
 }

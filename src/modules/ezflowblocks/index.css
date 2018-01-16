@@ -68,11 +68,22 @@
   margin-top: -39px;
 }
 
-.u-flow-panels section .arrow .arrow-draw {
+.u-flow-panels section .arrow .arrow-white {
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-top: 24px solid;
   color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.u-flow-panels section .arrow .arrow-gray {
+  @extend .u-color-grey-10;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
   display: block;
   height: 0;
   margin: 0 auto;
@@ -195,11 +206,22 @@
   margin-top: -39px;
 }
 
-.u-flow-links section .arrow .arrow-draw {
+.u-flow-links section .arrow .arrow-white {
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-top: 24px solid;
   color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.u-flow-links section .arrow .arrow-gray {
+  @extend .u-color-grey-10;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
   display: block;
   height: 0;
   margin: 0 auto;
@@ -283,6 +305,12 @@
   margin-right: -10rem;
 }
 
+.u-flow-map section {
+  @extend .u-padding-r-top;
+  @extend .u-padding-r-bottom;
+  @extend .u-text-r-s;
+}
+
 .u-flow-map .u-map-title {
   @extend .u-layout-r-withGutter;
   @extend .u-text-r-s;
@@ -290,6 +318,32 @@
   @extend .u-padding-r-bottom;
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+.u-flow-map section .arrow {
+  margin-top: -39px;
+}
+
+.u-flow-map section .arrow .arrow-white {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.u-flow-map section .arrow .arrow-gray {
+  @extend .u-color-grey-10;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
 }
 
 .u-flow-map section h1 {
@@ -316,3 +370,5 @@
   }
 
 }
+
+

@@ -18,7 +18,7 @@ const opts = {
     items: 4,
     dots: false,
     loop: false,
-    margin: 16,
+    margin: 8,
     mouseDrag: true,
     URLhashListener: true,
     startPosition: 'URLHash',

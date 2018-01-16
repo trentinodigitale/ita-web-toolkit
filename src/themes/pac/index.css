@@ -1,16 +1,16 @@
 :root {
-  --Color-primary: #66bb6a;
+  --Color-primary: #2196f3;
   --Color-text: #30373d;
-  --Color-5: #e1f5fe;
-  --Color-10: #b3e5fc;
-  --Color-20: #81dafa;
-  --Color-30: #4fc3f7;
-  --Color-40: #81c784;
-  --Color-50: #66bb6a;
-  --Color-60: #1976D2;
-  --Color-70: #0288d1;
-  --Color-80: #499358;
-  --Color-90: #01579b;
+  --Color-5: #e3f2fd;
+  --Color-10: #bbdefb;
+  --Color-20: #90caf9;
+  --Color-30: #64b5f6;
+  --Color-40: #42a5f5;
+  --Color-50: #2196f3;
+  --Color-60: #1e88e5;
+  --Color-70: #1976d2;
+  --Color-80: #1565c0;
+  --Color-90: #0d47a1;
 
   /* --Pac-font-family-sans: "Source Sans Pro", sans-serif; */
 
