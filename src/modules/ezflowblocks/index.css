@@ -90,6 +90,17 @@
   width: 0;
 }
 
+.u-flow-panels section .arrow .arrow-compl-10 {
+  @extend .u-color-compl-10;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
 .u-flow-panels section .u-flow-panel-comunicato {
   min-height: 10rem !important;
 }
