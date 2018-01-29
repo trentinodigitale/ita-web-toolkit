@@ -149,6 +149,17 @@
   @extend .u-margin-top-xs;
 }
 
+/* LINE */
+
+.u-content .u-content-main .content-view-line .line-heading {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.u-content .u-content-main .content-view-line .mdi {
+  font-size: 3em;
+}
+
 .u-content .u-content-related {
   @extend .Grid-cell;
   @extend .u-md-size1of3;
