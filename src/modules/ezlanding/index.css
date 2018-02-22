@@ -3,7 +3,6 @@
 .u-landing {
   @extend .u-margin-top-m;
   @extend .Grid;
-  @extend .u-padding-bottom-xxxl;
   padding-left: 10rem;
   padding-right: 10rem;
 }

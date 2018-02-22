@@ -55,7 +55,7 @@
   
 }
 
-.design-italia-frontpage .u-flow-panels section .u-flow-panel {
+.u-flow-panels section .u-flow-panel {
 
   @media (--lg-viewport), (--md-viewport) {
     min-height: 18rem;
@@ -63,7 +63,7 @@
 
 }
 
-.design-italia-frontpage .u-flow-panels section .u-flow-panel-comunicato {
+.u-flow-panels section .u-flow-panel-comunicato {
   min-height: 10rem !important;
 }
 
