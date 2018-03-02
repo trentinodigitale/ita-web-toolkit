@@ -1,6 +1,6 @@
 const fractal = module.exports = require('@frctl/fractal').create()
 
-fractal.set('project.title', 'Web Toolkit Styleguide')
+fractal.set('project.title', 'Web Toolkit')
 
 fractal.components.set('path', __dirname + '/src')
 
@@ -8,13 +8,7 @@ fractal.docs.set('path', __dirname + '/docs')
 
 fractal.web.set('static.path', __dirname + '/build')
 
-// prefix all resources url with '/build'
-//
-if (process.env.DEPLOY === 'true') {
-  fractal.web.set('static.mount', '/ita-web-toolkit/build')
-} else {
-  fractal.web.set('static.mount', '/build')
-}
+fractal.web.set('static.mount', '/build')
 
 fractal.web.set('builder.dest', __dirname + '/styleguide')
 
@@ -64,6 +58,7 @@ const mandelbrot = require('@frctl/mandelbrot')
  *  Specify custom theme
  */
 const myCustomisedTheme = mandelbrot({
+  favicon: '/assets/icons/favicon.ico',
   skin: 'blue',
   'nav': [
     'docs',
@@ -79,18 +74,17 @@ const myCustomisedTheme = mandelbrot({
   'lang': 'it',
   'styles': [
     'default',
-    '/ita-web-toolkit/theme/styleguide.css',
-    '/build/build-styleguide.css',
-    '/build/vendor.css'
+    '/assets/styleguide.css',
+    '/build/build-styleguide.css'
   ],
   'scripts': [
     'default',
     '/build/styleguide.min.js',
-    '/ita-web-toolkit/theme/styleguide-menu-override.js'
+    '/assets/styleguide-menu-override.js'
   ]
 })
 
-myCustomisedTheme.addStatic(__dirname + '/theme', '/ita-web-toolkit/theme')
+myCustomisedTheme.addStatic(__dirname + '/assets', '/assets')
 
 /*
  * Specify theme-overrides folder

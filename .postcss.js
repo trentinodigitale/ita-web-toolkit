@@ -9,7 +9,7 @@ const _ = require('lodash')
 
 module.exports = {
   use: [
-    'postcss-devtools',
+    // 'postcss-devtools',
 
     'postcss-easy-import',
     'postcss-custom-properties',
@@ -31,14 +31,15 @@ module.exports = {
     'postcss-pseudoelements',
 
     'postcss-flexbugs-fixes',
-    'postcss-reporter'
+    // 'postcss-reporter'
   ],
   'autoprefixer': {
     browsers: ['last 10 versions', 'ie 8', 'ie 9']
   },
   'postcss-url': {
     url: 'copy',
-    assetsPath: './'
+    assetsPath: 'assets',
+    useHash: true,
   },
   'postcss-inline-svg': {
     path: 'src/'
@@ -82,5 +83,6 @@ module.exports = {
     from: 'index.css',
     to: 'build/build.css',
     map: false,
-  }
+  },
+  stylelint: require('./.stylelintrc')
 };

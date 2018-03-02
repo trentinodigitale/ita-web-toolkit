@@ -34,17 +34,17 @@ const opts = {
   // element to listen to scroll events on, defaults to `window`
   scroller: window,
   // callback when pinned, `this` is headroom object
-  onPin: function() {},
+  onPin: function () { },
   // callback when unpinned, `this` is headroom object
-  onUnpin: function() {},
+  onUnpin: function () { },
   // callback when above offset, `this` is headroom object
-  onTop: function() {},
+  onTop: function () { },
   // callback when below offset, `this` is headroom object
-  onNotTop: function() {},
+  onNotTop: function () { },
   // callback when at bottom of page, `this` is headroom object
-  onBottom: function() {},
+  onBottom: function () { },
   // callback when moving away from bottom of page, `this` is headroom object
-  onNotBottom: function() {}
+  onNotBottom: function () { }
 }
 
 let headroom = null
@@ -71,7 +71,7 @@ if ($('.' + opts.classes.initial).is(headroomFixed)) {
   // Needs to be here due to CSS transition (see on Safari)
   let headerHeight = $(headroomFixed).height()
 
-  const _adjustPadding = function() {
+  const _adjustPadding = function () {
     const paddingTop = headerHeight
 
     $('body').css({
@@ -85,11 +85,12 @@ if ($('.' + opts.classes.initial).is(headroomFixed)) {
       position: 'fixed',
       top: 0
     })
+    headerHeight = $(headroomFixed).height()
     _adjustPadding()
   })
 
   // Make padding respond to window resize
-  $(window).resize(debounce(INTERVAL, function() {
+  $(window).resize(debounce(INTERVAL, function () {
     const newWindowWidth = $(window).width()
     const height = $(headroomFixed).height()
     // Android browser triggers a resize event on scroll to top
@@ -101,7 +102,7 @@ if ($('.' + opts.classes.initial).is(headroomFixed)) {
     }
   }))
 
-  $(headroomFixed).on('transitionend', debounce(INTERVAL, function() {
+  $(headroomFixed).on('transitionend', debounce(INTERVAL, function () {
     const height = $(this).height()
     if (headerHeight < height) {
       // This happens *only* after a resize
@@ -127,8 +128,11 @@ $('.js-Header-search-trigger').click((e) => {
       $el.addClass('u-hidden')
     }
   })
-  $('#' + $(e.target).attr('aria-controls')).toggleClass('is-active')
+  const $searchBox = $('#' + $(e.target).attr('aria-controls'))
+  $searchBox.toggleClass('is-active')
+  $searchBox.parent().toggle()
 })
+
 
 export default {
   Headroom,
