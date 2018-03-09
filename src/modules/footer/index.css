@@ -5,7 +5,7 @@
 }
 
 .Footer {
-  @extend .u-background-grey-80;
+  @extend .u-background-90;
   @extend .u-color-white;
   @extend .u-padding-bottom-xxl;
   @extend .u-padding-top-xxl;
