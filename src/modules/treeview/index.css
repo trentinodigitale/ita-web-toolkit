@@ -104,6 +104,7 @@
 .Treeview--ez li .Treeview-Item {
   color: var(--Color-text);
   display: block;
+  margin-left: 10rem;
 }
 
 .Treeview--ez ul li {
@@ -134,50 +135,58 @@
 
 @media (--md-viewport), (--lg-viewport) {
 
+  .Treeview--ez .Treeview-Item {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+  }
+
   .Treeview--ez ul .Treeview-Item {
     margin-left: 10rem !important;
-    margin-right: 10rem !important;
+    margin-right: 5rem !important;
   }
 
   .Treeview--ez ul ul .Treeview-Item {
-    margin-left: 20rem !important;
-    margin-right: 20rem !important;
+    margin-left: 15rem !important;
+    margin-right: 5rem !important;
   }
 
   .Treeview--ez ul ul ul .Treeview-Item {
-    margin-left: 30rem !important;
-    margin-right: 30rem !important;
+    margin-left: 20rem !important;
+    margin-right: 5rem !important;
   }
 
   .Treeview--ez ul ul ul ul .Treeview-Item {
-    margin-left: 40rem !important;
-    margin-right: 40rem !important;
+    margin-left: 25rem !important;
+    margin-right: 5rem !important;
   }
 
   .Treeview--ez ul ul ul ul ul .Treeview-Item {
-    margin-left: 50rem !important;
-    margin-right: 50rem !important;
+    margin-left: 30rem !important;
+    margin-right: 5rem !important;
   }
 
-  .Treeview--ez ul .Treeview-handler--standalone {
-    margin-left: 10rem !important;
+  .Treeview--ez .Treeview-handler--standalone {
     background-position-x: 2rem;
+  }
+  
+  .Treeview--ez ul .Treeview-handler--standalone {
+    margin-left: 5rem !important;
   }
 
   .Treeview--ez ul ul .Treeview-handler--standalone {
-    margin-left: 20rem !important;
+    margin-left: 10rem !important;
   }
 
   .Treeview--ez ul ul ul .Treeview-handler--standalone {
-    margin-left: 30rem !important;
+    margin-left: 15rem !important;
   }
   
   .Treeview--ez ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 40rem !important;
+    margin-left: 20rem !important;
   }
 
   .Treeview--ez ul ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 50rem !important;
+    margin-left: 25rem !important;
   }
 
 }
@@ -196,11 +205,11 @@
 }
 
 .Treeview--ez ul a {
-  @extend .u-background-grey-80;
+  @extend .u-background-90;
 }
 
 .Treeview--ez ul ul a {
-  @extend .u-background-grey-50;
+  @extend .u-background-80;
 }
 
 .Treeview--ez ul a .Treeview-Item {
