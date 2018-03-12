@@ -2,6 +2,7 @@
 
 .Header {
   @extend .u-layout-centerContent;
+  @extend .u-borderShadow-m;
 
   width: 100%;
 }
