@@ -57,7 +57,7 @@
 }
 
 .Card .Card-image figure {
-  min-height: 30rem;
+  min-height: 20rem;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center top !important

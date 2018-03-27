@@ -170,23 +170,23 @@
   }
   
   .Treeview--ez ul .Treeview-handler--standalone {
-    margin-left: 5rem !important;
+    margin-left: 1rem !important;
   }
 
   .Treeview--ez ul ul .Treeview-handler--standalone {
-    margin-left: 6rem !important;
+    margin-left: 2rem !important;
   }
 
   .Treeview--ez ul ul ul .Treeview-handler--standalone {
-    margin-left: 7rem !important;
+    margin-left: 3rem !important;
   }
   
   .Treeview--ez ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 8rem !important;
+    margin-left: 4rem !important;
   }
 
   .Treeview--ez ul ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 9rem !important;
+    margin-left: 5rem !important;
   }
 
 }

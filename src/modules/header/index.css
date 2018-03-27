@@ -2,7 +2,7 @@
 
 .Header {
   @extend .u-layout-centerContent;
-  @extend .u-borderShadow-m;
+  @extend .u-borderShadow-xs;
 
   width: 100%;
 }
@@ -60,14 +60,6 @@
   }
 
   width: 100%;
-}
-
-@media (--xs-viewport), (--sm-viewport) {
-
-  .Header-navbar {
-      @extend .u-background-grey-20;
-  }
-
 }
 
 /* Burger button

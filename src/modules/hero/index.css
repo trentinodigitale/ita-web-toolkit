@@ -33,4 +33,13 @@
   @extend .u-lg-before1of8;
 
   opacity: 0.95;
+  
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+  
+  .Hero-content {
+    top: 80%!important;
+  }
+  
 }
