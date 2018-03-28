@@ -89,6 +89,7 @@
   left: 0;
   top: 100%;
   width: 100%;
+  white-space: normal;
 }
 
 /* sub-navigation panel open state */
