@@ -78,7 +78,6 @@
 .u-content .u-content-main h3 {
   @extend .u-color-50;
   margin-bottom: 0 !important;
-  margin-top: 4rem !important;
 }
 
 .u-content .u-content-main h4 {
@@ -287,7 +286,7 @@ body .Header-titleLink a:hover {
 /*.u-background-grey-20*/
 
 .content-view-children .media {
-    @extend .u-padding-all-m;
+    @extend .u-padding-all-xs;
 }
 
 .content-view-children div:nth-child(even){
