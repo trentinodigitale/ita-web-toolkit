@@ -281,4 +281,15 @@ body .Header-titleLink a:hover {
   }
   
 }
-  
+ 
+/* Striped line */
+
+/*.u-background-grey-20*/
+
+.content-view-children .media {
+    @extend .u-padding-all-m;
+}
+
+.content-view-children div:nth-child(even){
+    @extend .u-background-grey-20;
+}

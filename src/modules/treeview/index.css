@@ -42,6 +42,10 @@
 }
 */
 
+.Treeview {
+  @extend .u-border-all-xxs;
+}
+
 .Treeview [aria-expanded="true"] > .Treeview-handler--default::after,
 .Treeview [aria-expanded="true"] > a > .Treeview-handler--standalone {
   background-image: var(--Treeview-link-arrow-up);
@@ -51,7 +55,12 @@
   display: none;
 }
 
-.Treeview li {
+.MainContent .Treeview a{
+  color: var(--Color-text) !important;
+}
+
+.MainContent .Treeview li {  
+  @extend .u-border-bottom-xxs;
   cursor: pointer;
 }
 
@@ -90,8 +99,15 @@
 
 .Treeview--ez {
   @extend .u-background-white;
+  @extend .u-border-all-xxs;
+  color: var(--Color-text) !important;
   margin-left: -10rem;
   margin-right: -10rem;
+  
+}
+
+.Treeview--ez li {
+  @extend .u-border-bottom-xxs;
 }
 
 @media (--xs-viewport), (--sm-viewport) {
