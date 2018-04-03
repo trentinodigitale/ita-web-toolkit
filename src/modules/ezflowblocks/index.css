@@ -24,6 +24,16 @@
   margin-right: -10rem;
 }
 
+
+@media (--xs-viewport), (--sm-viewport) {
+  
+  .u-flow-panels {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+}
+
 .u-flow-panels section {
   @extend .u-layout-r-withGutter;
   @extend .u-padding-r-top;
@@ -31,6 +41,15 @@
   @extend .u-text-r-s;
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+  
+  .u-flow-panels section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
 }
 
 .u-flow-panels section h1 {

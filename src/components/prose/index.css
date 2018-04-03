@@ -20,9 +20,10 @@
 .Prose > ul > li,
 .Prose > ol > li {
   @extend .u-lineHeight-xl;
-
+  
   color: var(--Prose-color-text-primary);
   font-size: 1.6rem !important;
+  text-align: justify;
 }
 
 .Prose > p > small {

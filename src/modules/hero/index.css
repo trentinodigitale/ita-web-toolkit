@@ -6,6 +6,7 @@
 
 :root {
   --Hero-height: 30em; /* 1 */
+  --Hero-height-smart: 20rem;
   --Hero-background-img: url("//placehold.it/2000x500?text=placeholder");
 }
 
@@ -15,6 +16,15 @@
   height: var(--Hero-height);
 
   @extend .u-posRelative;
+}
+
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .Hero {
+    height: var(--Hero-height-smart);
+  }
+
 }
 
 .Hero-content {
@@ -39,7 +49,18 @@
 @media (--xs-viewport), (--sm-viewport) {
   
   .Hero-content {
-    top: 80%!important;
+    background-color: inherit !important;
+    top: 30%!important;
+  }
+  
+  .Hero-content p {
+    display: none;
+  }
+  
+  .flexslider {
+    .flex-direction-nav a {
+      top: 80%;
+    }
   }
   
 }
