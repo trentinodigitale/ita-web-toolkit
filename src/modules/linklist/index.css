@@ -70,8 +70,8 @@
 
 .Linklist-link.Linklist-link--lev1,
 .Linklist-link.Linklist-link--lev1:hover {
-  @extend .u-color-white;
-  @extend .u-background-90;
+  @extend .u-color-black;
+  @extend .u-background-50;
 }
 
 .Linklist-link.Linklist-link--lev2,

@@ -42,10 +42,6 @@
 }
 */
 
-.Treeview {
-  @extend .u-border-all-xxs;
-}
-
 .Treeview [aria-expanded="true"] > .Treeview-handler--default::after,
 .Treeview [aria-expanded="true"] > a > .Treeview-handler--standalone {
   background-image: var(--Treeview-link-arrow-up);
@@ -55,12 +51,9 @@
   display: none;
 }
 
-.MainContent .Treeview a{
-  color: var(--Color-text) !important;
-}
 
 .MainContent .Treeview li {  
-  @extend .u-border-bottom-xxs;
+  @extend .u-background-80;
   cursor: pointer;
 }
 
@@ -81,7 +74,7 @@
 
 .Treeview--default li[aria-expanded=true] > a,
 .Treeview--default li[aria-expanded=true] > a:hover {
-  @extend .u-background-80;
+  @extend .u-background-50;
 }
 
 .Treeview--default ul a {
