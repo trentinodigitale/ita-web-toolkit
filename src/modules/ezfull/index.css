@@ -1,5 +1,28 @@
 /* eZ-Publish full page */
 
+:root {
+  --Color-text: #30373d;
+}
+
+/* Margin & Padding Custom*/
+
+.u-padding-all-xxxl { padding: calc(15 * var(--Spacing-unit-fixed)) !important; }
+.u-margin-all-xxxl { margin: calc(15 * var(--Spacing-unit-fixed)) !important; }
+
+.u-padding-top-xxxl { padding-top: calc(15 * var(--Spacing-unit-fixed)) !important; }
+.u-margin-top-xxxl { margin-top: calc(15 * var(--Spacing-unit-fixed)) !important; }
+
+.u-padding-bottom-xxxl { padding-bottom: calc(15 * var(--Spacing-unit-fixed)) !important; }
+.u-margin-bottom-xxxl { margin-bottom: calc(15 * var(--Spacing-unit-fixed)) !important; }
+
+.u-padding-left-xxxl { padding-left: calc(15 * var(--Spacing-unit-fixed)) !important; }
+.u-padding-left-xxxxl { padding-left: 10rem; }
+.u-margin-left-xxxl { margin-left: calc(15 * var(--Spacing-unit-fixed)) !important; }
+
+.u-padding-right-xxxl { padding-right: calc(15 * var(--Spacing-unit-fixed)) !important; }
+.u-padding-right-xxxxl { padding-right: 10rem; }
+.u-margin-right-xxxl { margin-right: calc(15 * var(--Spacing-unit-fixed)) !important; }
+
 .u-content-length {
   @extend .u-background-40;
   display: none;

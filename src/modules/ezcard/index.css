@@ -1,0 +1,7 @@
+
+.Card figure {
+    min-height: 20rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center top !important;
+}
