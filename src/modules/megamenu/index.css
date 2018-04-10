@@ -192,9 +192,9 @@
   @extend .u-color-white;
 }
 
-.Megamenu--default .Megamenu-subnavGroup:nth-child(4n+1) {
-  @extend .u-md-before2of12;
-  @extend .u-lg-before2of12;
+.Megamenu--default .Megamenu-subnavGroup:nth-child(5n+1) {
+  @extend .u-md-before1of12;
+  @extend .u-lg-before1of12;
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li {
