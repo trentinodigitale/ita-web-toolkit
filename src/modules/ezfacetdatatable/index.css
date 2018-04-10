@@ -195,12 +195,33 @@
 
 .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main {
   @extend .Grid-cell;
-  @extend .u-size2of3;
 }
+
 
 .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main .u-event-title {
   @extend .u-margin-bottom-xs;
   font-weight: bold;
+}
+
+
+@media (--md-viewport), (--lg-viewport) {
+
+  .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main {
+    @extend .u-size2of3;
+  }
+
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+    
+  .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main .u-event-where {
+    display:none;
+  }
+  
+  .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-details {
+    display:none;
+  }
+
 }
 
 .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-details {
@@ -437,7 +458,6 @@
 
 .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main {
   @extend .Grid-cell;
-  @extend .u-size2of3;
 }
 
 .u-facet .u-facet-calendar .u-facet-event .u-event-what .u-event-main .u-event-title {

@@ -15,6 +15,10 @@
   z-index: 10;
 }
 
+.Footer h2, .Footer p{
+  font-size: 1.6rem;
+}
+
 .Footer a {
   @extend .u-color-40;
   text-decoration: none;
