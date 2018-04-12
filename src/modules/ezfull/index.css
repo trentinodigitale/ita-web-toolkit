@@ -84,7 +84,13 @@
 .u-content .u-content-main h2 {
   @extend .u-color-50;
   margin-bottom: 0 !important;
-  margin-top: 3rem !important;
+  margin-top: 3rem;
+}
+
+.class-circolare h2,
+.class-deliberazione h2,
+.class-determinazione h2 {
+  margin-top: 0 !important;
 }
 
 .u-content .u-content-main h3 {
@@ -108,7 +114,7 @@
   width: 100%;
 }
 
-.u-content :not(.class-determinazione) :not(.class-deliberazione) .u-content-main .tags {
+.u-content :not(.class-determinazione) :not(.class-deliberazione) :not(.class-circolare) .u-content-main .tags {
   @extend .u-margin-top-xxl;
 }
 
