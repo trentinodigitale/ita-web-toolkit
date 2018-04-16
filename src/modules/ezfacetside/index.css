@@ -85,16 +85,6 @@
   font-size: 1.5rem !important;
 }
 
-.u-facet-side .u-facet-form select option {
-  @extend .u-background-grey-45;
-  @extend .u-color-white;
-  height: 6rem;
-}
-
-.u-facet-side .u-facet-form select option:hover {
-  @extend .u-background-40;
-}
-
 .u-facet-side .u-facet-table {
   @extend .Grid-cell;
   @extend .u-lg-size2of3;
