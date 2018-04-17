@@ -1,6 +1,8 @@
 :root {
   --Color-primary: #06c;
   --Pac-font-family-sans: Titillium Web, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  
+  --Table-stripe-color: var(--Color-grey-20);
 }
 
 /*

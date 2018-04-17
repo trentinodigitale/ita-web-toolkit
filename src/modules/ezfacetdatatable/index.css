@@ -45,7 +45,7 @@
 
 .u-facet .u-facet-form {
   @extend .Grid-cell;
-  @extend .u-background-grey-10;
+  @extend .u-background-grey-20;
   @extend .u-padding-top-xl;
   @extend .u-padding-bottom-xl;
   padding-left: 5rem !important;
