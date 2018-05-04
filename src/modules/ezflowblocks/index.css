@@ -1,8 +1,8 @@
 /* eZPublish ezflow blocks */
 
 .u-flow {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 @media (--xs-viewport), (--sm-viewport) {
@@ -165,8 +165,6 @@
   @extend .u-text-r-s;
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 .u-flow-links section h2 {
@@ -200,8 +198,8 @@
  */
 
 .u-flow-hero {
-  margin-left: -10rem;
-  margin-right: -10rem;
+  // margin-left: -20rem;
+  // margin-right: -20rem;
 }
 
 .u-flow-hero .flexslider {
