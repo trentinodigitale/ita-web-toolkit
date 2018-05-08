@@ -195,7 +195,7 @@
 .u-content .u-content-related .u-content-related-item {
   @extend .u-margin-bottom-xl;
   @extend .u-padding-bottom-s;
-  border-bottom: 1px solid var(--Color-text);
+  border-bottom: 1px solid var(--Color-50);
 }
 
 .u-content .u-content-related .u-content-related-item:last-of-type {
@@ -280,6 +280,7 @@ a.u-anchor {
 
 }
 
+/*
 body .u-content {
     padding-left: calc(12.4rem + 0.8rem);
 }
@@ -304,4 +305,5 @@ body .Header-titleLink a:hover {
   }
   
 }
+*/
   
