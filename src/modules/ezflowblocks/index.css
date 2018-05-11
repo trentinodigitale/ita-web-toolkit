@@ -114,7 +114,7 @@
 .u-flow-panels section .u-flow-event .u-event-what {
   @extend .u-padding-all-s;
   float: none;
-  height: 10rem;
+  min-height: 10rem;
   margin-left: 9rem;
 }
 
@@ -144,7 +144,7 @@
 .u-flow-panels section .u-flow-banner .u-banner-content {
   @extend .u-padding-all-s;
   float: none;
-  height: 10rem;
+  min-height: 10rem;
   margin-left: 12rem;
 }
 
