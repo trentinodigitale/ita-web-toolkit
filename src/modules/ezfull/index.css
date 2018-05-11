@@ -70,6 +70,14 @@
   @extend .u-lg-size2of3;
 }
 
+@media (--xs-viewport), (--sm-viewport) {
+    
+  .u-content .u-content-main-side {
+    padding-right: 0 !important;
+  }
+  
+}
+
 .u-content .u-content-main .u-content-title h1 {
   @extend .u-color-80;
   @extend .u-margin-bottom-m;
