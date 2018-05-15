@@ -52,6 +52,9 @@
 }
 
 /* ========================================== */
+.Color-Header-Title{
+	color: var(--Color-Header-Title) !important;
+}
 
 .Header-navbar {
   @extend .u-layout-r-withGutter;

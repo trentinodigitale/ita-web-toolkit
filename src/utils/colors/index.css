@@ -5,7 +5,7 @@
  */
 
 :root {
-  --Color-primary: #111; /* [1] */
+  --Color-primary: #0174b5; /* [1] */
 
   --Color-black: #000;
   --Color-white: #fff;
@@ -28,7 +28,7 @@
   --Color-20: color(var(--Color-primary) l(+30%) s(-30%));
   --Color-30: color(var(--Color-primary) l(+20%) s(-20%));
   --Color-40: color(var(--Color-primary) l(+8%) s(-15%));
-  --Color-50: var(--Color-primary);
+  --Color-50: #329aca;
   --Color-60: color(var(--Color-primary) l(-5%));
   --Color-70: color(var(--Color-primary) l(-10%));
   --Color-80: color(var(--Color-primary) l(-15%));
@@ -39,6 +39,10 @@
   --Color-compl-5: color(var(--Color-primary) h(+180) s(20%) l(95%));
   --Color-compl-10: color(var(--Color-primary) h(+180) s(30%) l(90%));
   --Color-compl-80: color(var(--Color-primary) h(+180));
+  
+  --Color-Header-Title: #fff;
+
+  
 }
 
 .u-color-black {
