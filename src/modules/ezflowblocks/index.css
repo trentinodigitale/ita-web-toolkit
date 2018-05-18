@@ -364,6 +364,18 @@
   
 }
 
+@media (--lg-viewport) {
+    
+    .u-flow-agenda section .u-prev-button {
+        position: absolute;
+        left: 1rem;
+    }
+    
+    .u-flow-agenda section .u-next-button {
+        position: absolute;
+        right: 1rem;
+    }
+}
 
 /* modifiche omar *
 
