@@ -311,7 +311,61 @@
 
 }
 
-/* modifiche omar */
+/*
+ * AGENDA
+ */
+
+.u-flow-agenda {
+  @extend .u-padding-r-top;
+  @extend .u-background-50;
+  @extend .u-color-white;
+  margin-left: -10rem;
+  margin-right: -10rem;
+  margin-top: 3rem;
+}
+
+.u-flow-agenda section {
+  @extend .u-padding-r-top;
+  @extend .u-padding-r-bottom;
+  @extend .u-layout-r-withGutter;
+  @extend .u-text-r-s;
+}
+
+.u-days-grid .Grid-cell:nth-child(even){
+  @extend .u-background-30;   
+}
+
+.u-flow-agenda section .arrow {
+  margin-top: -39px;
+}
+
+.u-flow-agenda section .arrow .arrow-white {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .u-flow-agenda {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  
+  .u-flow-agenda section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+}
+
+
+/* modifiche omar *
 
 body .u-lg-size1of3 .u-flow-panels section a.thumbnail {
     margin-bottom: 0 !important;
@@ -359,6 +413,7 @@ h2.Footer-blockTitle {
     margin-right: 0.5rem;
 }
 
+
 @media (--xs-viewport), (--sm-viewport) {
   body section.u-flow-panels .u-margin-bottom-xl {
       margin-left: 0.8rem !important;
@@ -372,3 +427,4 @@ h2.Footer-blockTitle {
       padding-bottom: 0!important;
   }
 }
+*/
