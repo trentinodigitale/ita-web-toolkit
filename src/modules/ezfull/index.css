@@ -275,9 +275,10 @@
 a.u-anchor {
   display: block;
   position: relative;
-  top: -160px;
+  /*top: -160px;*/
   visibility: hidden;
 
+  /*
   @media (--md-viewport) {
     top: -100px;
   }
@@ -285,7 +286,7 @@ a.u-anchor {
   @media (--xs-viewport), (--sm-viewport) {
     top: -90px;
   }
-
+  */
 }
 
 /*

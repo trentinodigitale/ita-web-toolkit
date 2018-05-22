@@ -1,4 +1,8 @@
 
+.Card {
+  @extend .u-margin-bottom-s;
+}
+
 .Card figure {
     min-height: 20rem;
     background-repeat: no-repeat !important;
