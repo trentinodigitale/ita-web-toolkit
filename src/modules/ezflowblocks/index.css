@@ -331,9 +331,11 @@
   @extend .u-text-r-s;
 }
 
+/*
 .u-days-grid .Grid-cell:nth-child(even){
   @extend .u-background-30;   
 }
+*/
 
 .u-flow-agenda section .arrow {
   margin-top: -39px;
@@ -348,6 +350,16 @@
   height: 0;
   margin: 0 auto;
   width: 0;
+}
+
+.u-flow-agenda section .u-next-button {
+  cursor: pointer;
+  font-size: 5rem;
+}
+
+.u-flow-agenda section .u-prev-button {
+  cursor: pointer;
+  font-size: 5rem;
 }
 
 @media (--xs-viewport), (--sm-viewport) {
