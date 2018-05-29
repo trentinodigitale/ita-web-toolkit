@@ -1,4 +1,15 @@
 
+.Card {
+  @extend .u-margin-bottom-s;
+  
+  @media (--lg-viewport), (--md-viewport), (--sm-viewport) {
+      
+    min-height: 18rem;
+    
+  }
+  
+}
+
 .Card figure {
     min-height: 20rem;
     background-repeat: no-repeat !important;
