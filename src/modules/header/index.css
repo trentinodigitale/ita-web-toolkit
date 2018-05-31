@@ -172,7 +172,7 @@
   @extend .u-padding-left-xxs;
   @extend .u-padding-right-xxs;
 
-  color: var(--Header-text-color);
+  color: var(--Color-50);
   
   @media (--sm-viewport), (--xs-viewport) {
       
