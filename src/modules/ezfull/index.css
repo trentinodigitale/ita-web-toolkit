@@ -168,6 +168,38 @@
   @extend .u-margin-top-xs;
 }
 
+/* FACTBOX */
+.u-content .u-content-main .u-factbox {
+  @extend .Grid;
+  @extend .u-border-all-xxs;
+  @extend .u-padding-all-s;
+  @extend .u-margin-top-l;
+  @extend .u-margin-bottom-l;
+}
+
+.u-content .u-content-main .u-factbox .u-factbox-icon {
+  @extend .Grid-cell;
+  @extend .u-size1of4;
+  @extend .u-text-center;
+  @extend .u-padding-all-m;
+  @extend .u-color-80;
+  font-size: 5rem;
+}
+
+.u-content .u-content-main .u-factbox .u-factbox-content {
+  @extend .Grid-cell;
+  @extend .u-size3of4;
+  @extend .u-color-text;
+  @extend .Prose;
+}
+
+.u-content .u-content-main .u-factbox .u-factbox-content h3 {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* /FACTBOX */
+
 .u-content .u-content-related {
   @extend .Grid-cell;
   @extend .u-md-size1of3;
