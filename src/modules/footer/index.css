@@ -1,6 +1,7 @@
 /** @define Footer; weak */
 
 :root {
+  --Footer-bg: #002334;
   --Footer-color-link: var(--Color-teal-50);
   --Footer-background-color: var(--Color-95);
 }
@@ -12,7 +13,7 @@
 }
 
 .Footer a {
-  color: var(--Footer-color-link);
+  color: var(--Footer-color-link) !important;
 }
 
 .Footer-logo {
@@ -36,7 +37,7 @@
 
 .Footer-subBlock {
   @extend .u-color-grey-50;
-  @extend .u-border-top-xxs;
+  /* @extend .u-border-top-xxs; */
   @extend .u-padding-all-s;
 }
 
@@ -64,10 +65,13 @@
 }
 
 .Footer-block li {
-  @extend .u-color-grey-50;
-  @extend .u-border-top-xxs;
+  /* @extend .u-color-grey-50;
+  
+  @extend .u-border-top-xxs; */
   @extend .u-padding-top-s;
   @extend .u-padding-bottom-s;
+  
+  color: #6EC05E;
 }
 
 .Footer-block a {
@@ -76,7 +80,7 @@
 }
 
 .Footer-links {
-  @extend .u-border-top-xxs;
+  /* @extend .u-border-top-xxs;*/
   @extend .u-margin-top-l;
   @extend .u-padding-r-top;
   @extend .u-sizeFull;
@@ -106,6 +110,10 @@
   @extend .u-borderRadius-circle;
   @extend .u-text-r-s;
 
-  background-color: var(--Footer-color-link);
-  color: var(--Footer-background-color);
+  background-color: #6EC05E;
+  color: rgb(255, 255, 255);
+}
+
+.Footer-Bg{
+    background-color: var(--Footer-bg);
 }

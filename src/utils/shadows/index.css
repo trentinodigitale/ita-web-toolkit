@@ -24,6 +24,20 @@
   box-shadow: 1px 80px 80px -80px rgba(0, 0, 0, 0.85) !important;
 }
 
+
+.u-bottomShadow-topSin-s-bottomDx-xxl {
+    -webkit-box-shadow: 8px 12px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 12px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: 8px 12px 42px 0px rgba(0,0,0,0.75);
+}
+
+.u-bottomShadow-topSin-s-bottomDx-l{
+    -webkit-box-shadow: 2px 6px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 12px 1px rgba(0,0,0,0.75);
+}
+
+
 .u-hasScrollHint::after {
   background: linear-gradient(to left, currentColor, rgba(0, 0, 0, 0));
   position: absolute;

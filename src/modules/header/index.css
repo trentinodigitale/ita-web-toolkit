@@ -1,14 +1,14 @@
 /* @define Header; weak */
 
 :root {
-  --Header-banner-bg: var(--Color-grey-80);
-  --Header-navbar-bg: var(--Color-50);
+  --Header-banner-bg: #f1f1f1;
+  --Header-navbar-bg: #ffffff;
   --Header-searchTrigger-bg: var(--Color-50);
-  --Header-languages-bg: var(--Color-grey-80);
+  --Header-languages-bg: #f1f1f1;;
   --Header-activeLanguage-bg: var(--Color-80);
   --Header-language-other-bg: var(--Color-white);
   --Header-socialIcons-bg: var(--Color-white);
-  --Header-text-color: var(--Color-white);
+  --Header-text-color: #006390;
   --Header-search-maxWidth: 20em;
 }
 
@@ -22,7 +22,14 @@
   @extend .u-layout-r-withGutter;
 
   background-color: var(--Header-banner-bg);
+  font-size: 0.5em;
+
 }
+
+.Header-banner a {
+  color: #9b9b9b !important;
+}
+
 
 .Header-owner {
   @extend .u-layout-wide;

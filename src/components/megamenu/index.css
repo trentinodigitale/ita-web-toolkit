@@ -1,8 +1,8 @@
 /** @define Megamenu; weak; */
 
 :root {
-  --Megamenu-arrow-width: 0.5em;
-  --Megamenu-subnav-width: 14em;
+  --Megamenu-arrow-width: 0em;
+  --Megamenu-subnav-width: 10em;
 }
 
 /*
@@ -55,7 +55,7 @@
 }
 
 .Megamenu-item:first-child > a {
-  padding-left: 0 !important;
+   padding-left: 0.7em !important;
 }
 
 .Megamenu-item > a:focus {
@@ -117,7 +117,7 @@
 .Megamenu--default {
   @extend .u-layout-r-withGutter;
 
-  background-color: color(var(--Color-primary) l(+5%) s(-15%));
+  background-color: color(var(--Color-Megamenu));
 }
 
 .Megamenu--default > .Megamenu-list {
@@ -133,14 +133,14 @@
 .Megamenu--default .Megamenu-subnavGroup > li > a {
   @extend .u-textClean;
   @extend .u-posRelative;
-  @extend .u-textWeight-600;
+/*  @extend .u-textWeight-600; */
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li > a {
   @extend .u-color-95;
   @extend .u-text-r-s;
-  @extend .u-textUppercase;
-  @extend .u-textWeight-700;
+  /*@extend .u-textUppercase;
+  @extend .u-textWeight-700;*/
 }
 
 .Megamenu--default .Megamenu-item > a {
@@ -174,8 +174,10 @@
   content: "\23f7";
 }
 
-.Megamenu--default .Megamenu-list > li > a[aria-expanded=true] {
-  opacity: 0.7;
+.Megamenu--default .Megamenu-list > li > a[aria-expanded=true] {  
+    /*opacity: 0.7;*/
+    color: #005e82 !important;
+    background-color: white !important;
 }
 
 .Megamenu--default .Megamenu-subnav {
@@ -269,4 +271,9 @@
   opacity: 0.7;
   right: 2em;
   top: 2em;
+}
+
+.Megamenu-subnavGroup-veditutto > li > a {
+  font-weight: bold;
+  color: #6EC05E !important;
 }

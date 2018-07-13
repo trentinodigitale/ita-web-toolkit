@@ -2,11 +2,16 @@
 
 /*
  *	1. To be overridden by themes
+ * Verde:6EC05E 
+ * Blu:005E82
+ * Turchese:008999
  */
 
-:root {
-  --Color-primary: #0174b5; /* [1] */
-
+:root {    
+       
+  --Color-primary: #005E82; /* [1] */
+  --Color-Megamenu: #005E82;
+  
   --Color-black: #000;
   --Color-white: #fff;
   --Color-grey-10: #f5f5f0;
@@ -19,7 +24,7 @@
   --Color-grey-80: #30373d;
   --Color-grey-90: #1c2024;
   --Color-teal-30: #00c5ca;
-  --Color-teal-50: #65dcdf;
+  --Color-teal-50: #fff;
   --Color-teal-70: #004a4d;
   --Color-focus: #ff8c00;
 
@@ -42,7 +47,35 @@
   
   --Color-Header-Title: #fff;
 
+  --Color-banner-0 : #5CAD4C;
+  --Color-banner-1 : #005E82;
+  --Color-banner-2 : #008999;
+  --Color-banner-3 : #2EA2B9;
   
+  --Color-site-0 : #5CAD4C; /* VerdeScuro*/
+  --Color-site-1 : #005E82; /* Blu */
+  --Color-site-2 : #008999; /* Turchese */
+  --Color-site-3 : #2EA2B9; /* Blu chiaro */
+  --Color-site-4 : #6EC05E; /* Verde */                          
+}
+
+.u-color-site-0 {
+  color: var(--Color-site-0) !important;
+}
+.u-color-site-1 {
+  color: var(--Color-site-1) !important;
+}
+.u-color-site-2 {
+  color: var(--Color-site-2) !important;
+}
+.u-color-site-3 {
+  color: var(--Color-site-3) !important;
+}
+.u-color-site-4 {
+  color: var(--Color-site-4) !important;
+}
+.u-color-site-5 {
+  color: var(--Color-site-5) !important;
 }
 
 .u-color-black {
@@ -283,4 +316,17 @@
 
 .u-background-compl-80 {
   background-color: var(--Color-compl-80) !important;
+}
+
+.u-background-banner-0 {
+  background-color: var(--Color-banner-0) !important;
+}
+.u-background-banner-1 {
+  background-color: var(--Color-banner-1) !important;
+}
+.u-background-banner-2 {
+  background-color: var(--Color-banner-2) !important;
+}
+.u-background-banner-3 {
+  background-color: var(--Color-banner-3) !important;
 }
