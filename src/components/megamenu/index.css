@@ -118,6 +118,9 @@
   @extend .u-layout-r-withGutter;
 
   background-color: color(var(--Color-Megamenu));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
 }
 
 .Megamenu--default > .Megamenu-list {

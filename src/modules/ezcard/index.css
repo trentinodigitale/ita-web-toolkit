@@ -1,3 +1,6 @@
+.Card {
+    @extend .u-margin-bottom-s;
+}
 
 .Card figure {
     min-height: 20rem;
@@ -5,3 +8,14 @@
     background-size: cover !important;
     background-position: center !important;
 }
+
+
+@media (--md-viewport), (--lg-viewport) {
+
+  .Card .u-layout-prose{
+    min-height: 30rem;
+  }
+
+}
+
+

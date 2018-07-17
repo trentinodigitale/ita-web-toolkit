@@ -318,6 +318,19 @@
   background-color: var(--Color-compl-80) !important;
 }
 
+.u-color-banner-0 {
+  color: var(--Color-banner-0) !important;
+}
+.u-color-banner-1 {
+  color: var(--Color-banner-1) !important;
+}
+.u-color-banner-2 {
+  color: var(--Color-banner-2) !important;
+}
+.u-color-banner-3 {
+  color: var(--Color-banner-3) !important;
+}
+
 .u-background-banner-0 {
   background-color: var(--Color-banner-0) !important;
 }
