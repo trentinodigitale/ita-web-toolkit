@@ -139,7 +139,7 @@
 .u-flow-panels section .u-flow-banner .u-banner-content {
   @extend .u-padding-all-s;
   float: none;
-  height: 15rem;
+  min-height: 15rem;
   margin-left: 18rem;
 }
 

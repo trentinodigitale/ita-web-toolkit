@@ -7,14 +7,13 @@
 .Breadcrumb-link {
   @extend .u-textClean;
   @extend .u-text-r-xs;
-  @extend .u-textWeight-700;
   @extend .u-padding-right-xs;
 }
 
 .Breadcrumb-item::after {
   @extend .u-margin-right-xs;
 
-  content: " › ";
+  content: " | ";
 }
 
 .Breadcrumb-item:last-child::after {

@@ -2,7 +2,7 @@
 
 :root {
   --Button-default-bg: #5CAD4C;
-  --Button-default-color: #4E9C3F; //004a4d
+  --Button-default-color: #fff;
   --Button-default-border: #4E9C3F;
   
   --Button-danger-bg: #b50000;

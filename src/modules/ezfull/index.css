@@ -153,7 +153,8 @@
 .u-content .u-content-main .u-flow-banner {
   @extend .u-margin-all-xs;
   @extend .u-background-grey-10;
-  min-height: 12rem;
+  @extend .u-borderShadow-m;
+  min-height: 15rem;
 }
 
 .u-content .u-content-main .u-flow-banner .u-banner-icon {
@@ -161,20 +162,22 @@
   @extend .u-textCenter;
   @extend .u-padding-all-s;
   float: left;
-  font-size: 6rem;
-  height: 12rem;
-  width: 9rem;
+  font-size: 10rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 .u-content .u-content-main .u-flow-banner .u-banner-content {
   @extend .u-padding-all-s;
   float: none;
-  height: 10rem;
-  margin-left: 12rem;
+  min-height: 15rem;
+  margin-left: 18rem;
 }
 
 .u-content .u-content-main .u-flow-banner .u-banner-content .u-banner-title {
   font-weight: bold;
+  font-size: 2.5rem;
+  padding: 2.5rem;
 }
 
 .u-content .u-content-main .u-flow-banner .u-banner-content .u-banner-subtitle {

@@ -21,7 +21,7 @@
 .Hamburger-toggle,
 .Hamburger-toggle::before,
 .Hamburger-toggle::after {
-  background: white;
+  background: #006390;
   border-radius: 4px;
   content: " ";
   display: block;
