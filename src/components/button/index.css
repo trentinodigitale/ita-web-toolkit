@@ -14,9 +14,10 @@
 }
 
 .Button {
+  border: none !important;
   font-size: 2rem !important;
   font-weight: 600;
-  padding: 1.5em 3em;
+  padding: 1em 2em;
   text-transform: uppercase;
   touch-action: manipulation;
   vertical-align: middle;

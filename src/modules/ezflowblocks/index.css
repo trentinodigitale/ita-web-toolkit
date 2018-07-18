@@ -221,6 +221,54 @@
 }
 
 /*
+ * SIDE IMAGE
+ */
+
+.u-flow .u-flow-side-image {
+  height: 30em;
+}
+
+.u-flow .u-flow-side-image .u-flow-side-image-content {
+  background: linear-gradient(rgba(0,0,0,.3) 60%, rgba(0,0,0,0));
+  padding: 6rem 20rem;
+}
+
+@media (--md-viewport), (--sm-viewport), (--xs-viewport) {
+
+  .u-flow .u-flow-side-image .u-flow-side-image-content {
+    padding: 6rem 2rem;
+  }
+
+}
+
+.u-flow .u-flow-side-image .u-flow-side-image-content {
+  background: linear-gradient(rgba(0,0,0,.3) 50%, rgba(0,0,0,0))
+}
+
+.u-flow .u-flow-side-image .u-flow-side-image-content .title {
+@extend .u-text-h2;
+  cursor: pointer;
+}
+
+.u-flow .u-flow-side-image .u-flow-side-image-content .title:hover {
+  text-decoration: underline;
+}
+
+.u-flow .u-flow-side-image .u-flow-side-image-content .description {
+  line-height: 1.55 !important
+}
+
+@media (--sm-viewport), (--xs-viewport) {
+
+  .u-flow .u-flow-side-image {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    height: 20em;
+  }
+
+}
+
+/*
  * TREEVIEW
  */
 

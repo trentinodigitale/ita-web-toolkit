@@ -2,7 +2,7 @@
 
 :root {
   --Megamenu-arrow-width: 0em;
-  --Megamenu-subnav-width: 10em;
+  --Megamenu-subnav-width: auto;
 }
 
 /*
@@ -48,7 +48,7 @@
   @extend .u-flexCol;
   @extend .u-flexJustifyCenter;
   @extend .u-flexAlignSelfStretch;
-  @extend .u-padding-top-s;
+  @extend .u-padding-top-m;
   @extend .u-padding-bottom-s;
   @extend .u-padding-right-xl;
   @extend .u-padding-left-xl;
@@ -115,22 +115,23 @@
 /* Some custom style */
 
 .Megamenu--default {
-  @extend .u-layout-r-withGutter;
-
   background-color: color(var(--Color-Megamenu));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-weight: bold;
 }
 
+.Megamenu--default .Megamenu-item:first-child {
+  margin-left: 14rem;
+}
+
+/*
 .Megamenu--default > .Megamenu-list {
   @extend .u-layout-wide;
-  @extend .u-layoutCenter;
 
   @media (--lg-viewport) {
     padding-left: 0 !important;
   }
 }
+*/
 
 .Megamenu--default .Megamenu-item > a,
 .Megamenu--default .Megamenu-subnavGroup > li > a {
@@ -185,19 +186,19 @@
 
 .Megamenu--default .Megamenu-subnav {
   @extend .u-background-white;
-  @extend .u-padding-top-l;
-  @extend .u-padding-bottom-l;
+  @extend .u-padding-top-s;
+  @extend .u-padding-bottom-s;
   @extend .u-padding-left-xl;
   @extend .u-padding-right-xl;
-  @extend .u-borderRadius-m;
-  @extend .u-borderShadow-l;
+  @extend .u-borderShadow-m;
+  width: 100%;
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li {
   @extend .u-color-grey-50;
   @extend .u-padding-top-s;
   @extend .u-padding-bottom-s;
-  @extend .u-margin-r-right;
+  @extend .u-margin-right-l;
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li:last-child {
