@@ -3,7 +3,7 @@
 .u-facet {
   @extend .u-margin-top-m;
   @extend .Grid;
-  margin-bottom: -3.2rem;
+ //  margin-bottom: -3.2rem;
 }
 
 .u-facet .u-facet-title {
