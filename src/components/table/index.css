@@ -107,7 +107,7 @@
  * Applico table responsive solo a xs sm e md viewport
  */
 
-@media (--xs-viewport), (--sm-viewport), (--md-viewport) {
+@media (--xs-viewport), (--sm-viewport) {
 
   .Table--responsive {
 
