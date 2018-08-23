@@ -2,3 +2,10 @@
 
 /** @define Carousel; weak */
 
+@media (--md-viewport), (--lg-viewport) {
+
+  .owl-carousel .Carousel-item .Carousel-subitem {
+    min-height: 37rem;
+  }
+
+}

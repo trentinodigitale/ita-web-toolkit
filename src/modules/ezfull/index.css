@@ -173,17 +173,39 @@
   @extend .Grid;
   @extend .u-border-all-xxs;
   @extend .u-padding-all-s;
-  @extend .u-margin-top-l;
   @extend .u-margin-bottom-l;
+
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .u-content .u-content-main .u-factbox {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
 }
 
 .u-content .u-content-main .u-factbox .u-factbox-icon {
   @extend .Grid-cell;
   @extend .u-size1of4;
   @extend .u-text-center;
-  @extend .u-padding-all-m;
+  @extend .u-padding-left-m;
+  @extend .u-padding-right-m;
   @extend .u-color-80;
   font-size: 5rem;
+  margin-top: -1.2rem;
+}
+
+
+@media (--lg-viewport) {
+
+  .u-content .u-content-main .u-factbox .u-factbox-icon {
+    padding-left: 4rem !important;
+  }
+
 }
 
 .u-content .u-content-main .u-factbox .u-factbox-content {
@@ -193,9 +215,13 @@
   @extend .Prose;
 }
 
-.u-content .u-content-main .u-factbox .u-factbox-content h3 {
+.u-content .u-content-main .u-factbox .u-factbox-content h3, .u-content .u-content-main .u-factbox .u-factbox-content h4{
   margin-top: 0 !important;
   margin-bottom: 1rem !important;
+}
+
+.u-content .u-content-main .u-factbox .u-factbox-content p {
+  margin-bottom: 0 !important;
 }
 
 /* /FACTBOX */

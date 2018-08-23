@@ -51,8 +51,15 @@
   @extend .u-margin-all-xs;
   @extend .u-background-grey-10;
   min-height: 12rem;
+}
 
-  
+.u-flow-panels section .sticky_home {
+  @extend .u-background-80;
+  @extend .u-color-white;
+}
+
+.u-flow-panels section .sticky_home a {
+  @extend .u-color-white;
 }
 
 .u-flow-panels section .u-flow-panel {
