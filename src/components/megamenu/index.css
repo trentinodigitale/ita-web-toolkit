@@ -141,8 +141,9 @@
 }
 
 .Megamenu--default .Megamenu-subnavGroup > li > a {
-  @extend .u-color-95;
-  @extend .u-text-r-s;
+  /*@extend .u-color-95;*/
+  color: color(var(--Color-Megamenu)) !important;
+  @extend .u-text-r-xs;
   /*@extend .u-textUppercase;
   @extend .u-textWeight-700;*/
 }

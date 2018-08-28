@@ -298,3 +298,7 @@ option:hover {
 .Form-input--m {
   max-width: 6em !important;
 }
+
+.accreditation-form .Form-input {
+  border: 0 !important;
+}
