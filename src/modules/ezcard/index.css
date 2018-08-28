@@ -13,9 +13,12 @@
 @media (--md-viewport), (--lg-viewport) {
 
   .Card .u-layout-prose{
-    min-height: 30rem;
+    min-height: 10rem;
   }
-
+  
+  .Card .u-layout-proseHome{
+    min-height: 48rem;
+  }
 }
 
 

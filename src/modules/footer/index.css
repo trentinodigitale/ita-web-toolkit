@@ -2,6 +2,7 @@
 
 :root {
   --Footer-bg: #002334;
+  --TopFooter-Bg: #5cad4c;
   --Footer-color-link: var(--Color-teal-50);
   --Footer-background-color: var(--Color-95);
 }
@@ -116,4 +117,8 @@
 
 .Footer-Bg{
     background-color: var(--Footer-bg);
+}
+
+.TopFooter-Bg{
+    background-color: var(--TopFooter-Bg);
 }
