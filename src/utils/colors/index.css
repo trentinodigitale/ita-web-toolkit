@@ -280,3 +280,7 @@
 .u-background-compl-80 {
   background-color: var(--Color-compl-80) !important;
 }
+
+.u-background-footer {
+  background-color: color(var(--Color-primary) l(+5%) s(-15%));
+}

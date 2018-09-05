@@ -12,7 +12,7 @@
 }
 
 .Footer a {
-  color: var(--Footer-color-link);
+  color: #ffffff;
 }
 
 .Footer-logo {
@@ -64,7 +64,7 @@
 }
 
 .Footer-block li {
-  @extend .u-color-grey-50;
+  @extend .u-color-white;
   @extend .u-border-top-xxs;
   @extend .u-padding-top-s;
   @extend .u-padding-bottom-s;
@@ -106,6 +106,6 @@
   @extend .u-borderRadius-circle;
   @extend .u-text-r-s;
 
-  background-color: var(--Footer-color-link);
+  background-color: #ffffff;
   color: var(--Footer-background-color);
 }
