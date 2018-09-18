@@ -174,6 +174,8 @@
   @extend .u-color-50;
   @extend .u-text-h3;
   @extend .u-margin-all-xs;
+
+  font-size: 3rem !important;
 }
 
 .u-flow-links section .u-flow-panels-link {
