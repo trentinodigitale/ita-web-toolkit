@@ -471,10 +471,6 @@ body .Header-toggle {
     width: 7.33333% !important;
 }
 
-body .Header-title {
-    width: 59.33333% !important;
-}
-
 @media (--xs-viewport), (--sm-viewport) {
   body .Header-logo {
       width: 11.66667% !important;

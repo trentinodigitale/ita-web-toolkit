@@ -6,6 +6,7 @@
 
 :root {
   --Hero-height: 30em; /* 1 */
+  --Hero-sm-height: 20em; /* 1 */
   --Hero-background-img: url("//placehold.it/2000x500?text=placeholder");
 }
 
@@ -16,6 +17,16 @@
 
   @extend .u-posRelative;
 }
+
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .Hero {
+    height: var(--Hero-sm-height);
+  }
+
+}
+
 
 .Hero-content {
   @extend .u-posRelative;

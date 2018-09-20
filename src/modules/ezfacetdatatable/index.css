@@ -516,3 +516,12 @@
   */
 }
 
+.stato_concorso_0 {
+  font-size: 1em !important;
+}
+
+.stato_concorso_1 {
+  color: var(--Button-danger-bg);
+  font-size: 1em !important;
+  font-weight: 600
+}
