@@ -316,15 +316,21 @@
 @media (--md-viewport), (--lg-viewport) {
 
   .u-flow .u-flow-nomargin .u-flow-links {
-    margin-left: 0 !important;
+    margin-left: .5rem !important;
     margin-right: 0 !important;
   }
 
   .u-flow .u-flow-nomargin .u-flow-links section {
-    margin-left: 0 !important;
+    margin-left: .5rem !important;
     margin-right: 0 !important;
     padding-left: 1.2rem !important;;
     padding-right: 1.2rem !important;;
   }
 
+  .u-flow .u-flow-nomargin div section {
+    margin-left: .5rem !important;
+    margin-right: 0 !important;
+    padding-left: 1.2rem !important;;
+    padding-right: 1.2rem !important;;
+  }
 }
