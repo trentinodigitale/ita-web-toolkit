@@ -305,3 +305,9 @@
 .class-faq_concorso .u-content-main h2 {
   margin-top: 0!important;
 }
+
+.class-faq_concorso .u-content-main .Accordion .Accordion-panel ul {
+  list-style: square;
+  margin: inherit;
+  padding: inherit;
+}
