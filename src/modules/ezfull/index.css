@@ -299,3 +299,9 @@
   }
 
 }
+
+/* custom faq */
+
+.class-faq_concorso .u-content-main h2 {
+  margin-top: 0!important;
+}
