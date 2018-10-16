@@ -302,12 +302,60 @@
 
 /* custom faq */
 
-.class-faq_concorso .u-content-main h2 {
+.accordion_faq_concorso h2 {
   margin-top: 0!important;
+  font-size: 1.9rem!important;
 }
 
-.class-faq_concorso .u-content-main .Accordion .Accordion-panel ul {
+.class-faq_concorso .u-content-main h2 {
+  margin-top: 0!important;
+  font-size: 1.9rem!important;
+}
+
+.class-concorso .u-content-main h4 {
+  margin-top: 0!important;
+  font-size: 1.9rem!important;
+}
+
+.class-faq_concorso .u-content-main h2 {
+  margin-top: 0!important;
+  font-size: 1.9rem!important;
+}
+
+.class-folder .u-content-main .Accordion  h2 {
+  margin-top: 0!important;
+  font-size: 1.9rem!important;
+}
+
+.class-faq_concorso .u-content-main .Accordion div{
+	font-size: 1.35rem!important;
+}
+
+.class-folder .u-content-main .Accordion .Accordion-panel p{
+	font-size: 1.35rem!important;
+}
+
+.accordion_faq_concorso h4 {
+	font-size: 1.9rem!important;
+}
+.accordion_response{
+	padding-left: 1.5em;
+	font-size: 1.35rem!important;
+}
+.accordion_response  ul{	
+	list-style: square;
+	margin: inherit;
+	padding: inherit; 
+}
+
+.class-faq_concorso .u-content-main .Accordion .Accordion-panel  ul {
   list-style: square;
   margin: inherit;
-  padding: inherit;
+  padding: inherit;  
+}
+
+.class-folder .u-content-main .Accordion .Accordion-panel  ul {
+  list-style: square;
+  margin: inherit;
+  padding: inherit; 
 }
