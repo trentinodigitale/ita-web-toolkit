@@ -96,7 +96,10 @@
 }
 
 .u-content .u-content-main .u-content-title .u-content-date {
-  font-size: 1.3rem !important;
+  @extend .u-margin-top-xxxl;
+  @extend .u-textWeight-700;
+  @extend .u-color-teal-30;
+  font-size: 2rem !important;
 }
 
 .u-content .u-content-main .Prose {
@@ -232,11 +235,14 @@
 }
 
 .u-content .u-content-related .u-content-related-item .Prose ul {
-  margin-left: 3rem !important;
+  margin-left: 0 !important;
+  list-style: none;
+  border-top: 1px solid var(--Color-grey-40);
 }
 
 .u-content .u-content-related .u-content-related-item .Prose > ul > li {
   @extend .u-color-40;
+  border-bottom: 1px solid var(--Color-grey-40);
 }
 
 @media (max-width: 992px) {

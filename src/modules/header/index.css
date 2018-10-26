@@ -40,7 +40,7 @@
     @extend .u-textWeight-600;
   }
 
-  color: var(--Header-text-color);
+  color: var(--Header-text-color) !important;
 }
 
 .Header-owner > a > span {
@@ -161,7 +161,7 @@
   @extend .u-padding-left-xxs;
   @extend .u-padding-right-xxs;
 
-  color: var(--Header-text-color);
+  color: var(--Header-text-color) !important;
 }
 
 .Header-titleLink small {
@@ -275,7 +275,7 @@
   @extend .u-padding-right-s;
   @extend .u-linkClean;
 
-  color: var(--Header-text-color);
+  color: var(--Header-text-color) !important;
 }
 
 .Header-language abbr {
