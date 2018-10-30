@@ -5,6 +5,14 @@
   --Footer-background-color: var(--Color-95);
 }
 
+.Footer-trentino-colors {
+  @extend .u-padding-right-m;
+  @extend .u-padding-left-m;
+  height: .8rem;
+  position: relative;
+  top: -4rem;
+}
+
 .Footer {
   @extend .u-color-white;
   @extend .u-padding-bottom-xxl;

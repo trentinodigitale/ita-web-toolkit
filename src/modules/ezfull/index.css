@@ -63,15 +63,25 @@
 
 /* u-content-main-side  da aggiungere solo se c'è un content related */
 
-.u-content .u-content-main-side {
+.u-content .u-content-main-side-3 {
   @extend .u-padding-right-xxxl;
   @extend .u-md-size2of3;
   @extend .u-lg-size2of3;
 }
 
+.u-content .u-content-main-side-4 {
+  @extend .u-padding-right-xxxl;
+  @extend .u-md-size3of4;
+  @extend .u-lg-size3of4;
+}
+
 @media (--xs-viewport), (--sm-viewport) {
 
-  .u-content .u-content-main-side {
+  .u-content .u-content-main-side-3 {
+    padding-right: 0 !important;
+  }
+
+  .u-content .u-content-main-side-4 {
     padding-right: 0 !important;
   }
 
@@ -204,10 +214,19 @@
 
 .u-content .u-content-related {
   @extend .Grid-cell;
-  @extend .u-md-size1of3;
-  @extend .u-lg-size1of3;
   @extend .u-background-grey-10;
   @extend .u-padding-all-m;
+  border-left: 1.5rem solid white;
+}
+
+.u-content .u-content-related-3 {
+  @extend .u-md-size1of3;
+  @extend .u-lg-size1of3;
+}
+
+.u-content .u-content-related-4 {
+  @extend .u-md-size1of4;
+  @extend .u-lg-size1of4;
 }
 
 .u-content .u-content-related .u-content-related-item {
