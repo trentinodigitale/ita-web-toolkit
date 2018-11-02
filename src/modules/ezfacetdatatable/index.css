@@ -454,6 +454,28 @@
   @extend .u-margin-bottom-xs;
 }
 
+.class-pagina_trasparenza .u-facet .u-facet-title{ 
+display: none; 
+}
+
+.class-pagina_trasparenza .u-facet .u-facet-form { 
+ display: none !important; 
+}
+.class-pagina_trasparenza .u-facet #search { 
+ display: none !important; 
+}
+
+.class-pagina_trasparenza .u-facet-table  {
+ padding-left: 0 !important;
+ padding-right: 0 !important
+}
+.class-pagina_trasparenza .u-facet .dataTables_wrapper .dataTables_filter{
+ float: right !important;
+ position: relative;
+ top: -30px
+}
+
+
 .ie89 .u-facet .u-facet-title,
 .ie89 .u-facet .u-facet-title .u-facet-heading,
 .ie89 .u-facet .u-facet-title .u-facet-result-count,
