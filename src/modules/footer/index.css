@@ -6,11 +6,11 @@
 }
 
 .Footer-trentino-colors {
-  @extend .u-padding-right-m;
-  @extend .u-padding-left-m;
+  @extend .u-padding-right-xxl;
+  @extend .u-padding-left-xxl;
   height: .8rem;
   position: relative;
-  top: -4rem;
+  top: -.4rem;
 }
 
 .Footer {
