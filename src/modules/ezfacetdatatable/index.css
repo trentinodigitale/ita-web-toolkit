@@ -474,7 +474,13 @@ display: none;
  position: relative;
  top: -30px
 }
+.class-pagina_trasparenza .u-facet .u-facet-table .dataTables_wrapper  .dataTables_processing table{
+ font-size: 0.8em;
+}
 
+.class-pagina_trasparenza .u-facet .u-facet-table .dataTables_wrapper  .dataTables_processing {
+ font-size: 0.8em;
+}
 
 .ie89 .u-facet .u-facet-title,
 .ie89 .u-facet .u-facet-title .u-facet-heading,

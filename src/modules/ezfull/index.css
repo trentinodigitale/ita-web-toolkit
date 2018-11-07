@@ -271,6 +271,36 @@
 
 }
 
+
+/* css per managementMember */
+.managementMember img {float: left;width: 14%;height: 14%;margin-right: 15px;margin-bottom: 35px;}
+
+.managementMember .nome{font-weight: bold;
+	color: #000;
+	font-size: 110%;
+}
+
+.managementMember .ruolo{font-weight: normal;
+	font-size: 83%;
+	width: 100%;
+}
+
+.managementMember img:hover {   
+	filter: grayscale(100%); 
+}
+
+.managementMember:hover img{   
+	filter: grayscale(100%); 
+}
+
+.managementMember  .ruolo{
+    font-size: 0.6em;
+}
+
+/* fine css per managementMember */
+
+
+
 /*
  * ANCORE
  */

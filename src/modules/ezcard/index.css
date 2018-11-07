@@ -21,4 +21,60 @@
   }
 }
 
+/* css per Card in management_folder */ 
+.class-management_folder .Card{
+	background-color: #FFF !important;
+	margin-left:1em;
+	margin-right:1em;
+	text-align: center;
+	min-height: 28em	
+}
+.class-management_folder .Card:hover{
+	background-color: #ebffe7 !important; 
+}
+.class-management_folder .img-circle{
+	border: 0px  ;
+	border-radius: 50%;
+}
+.class-management_members .img-circle{
+	border: 0px  ;
+	border-radius: 50%;
+}
+
+.class-management_folder  .organigramma{
+	text-align: center;		
+}
+.class-management_folder .organigramma_child{
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	width: 75%;
+	margin: 0 auto;
+	background-color:#ebffe7!important;
+}
+
+.management-mailto { 
+	background-color: #6ec05e !important; 
+	padding: .3rem; 
+	border-radius: 2rem; 
+	margin-right: .5rem !important; 
+	font-size: 1.8rem !important; 
+	display: inline-block; 
+}
+.management-mailto span { 
+	color: #fff !important; 
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.management-mailto span:hover { 
+	color: #005e82 !important; 
+}	
+
+.managementMember {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+/* fine css per Card in management_folder */ 
+
 
