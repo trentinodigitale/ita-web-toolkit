@@ -9,3 +9,28 @@
     background-size: cover !important;
     background-position: center !important;
 }
+
+.Card .u-card-abstract {
+    @extend .u-margin-top-m;
+    @extend .u-color-black;
+}
+
+.u-content-background-grey .Card .u-card-abstract {
+    @extend .u-color-white;
+}
+
+.Card .u-card-class {
+    @extend .u-color-teal-30;
+    @extend .u-textWeight-600;
+}
+
+.Card .u-card-class .u-card-class-icon {
+    @extend .u-margin-right-m;
+    font-size: 3rem;
+}
+
+
+.Card .u-card-class .u-card-class-name {
+    font-size: 2rem;
+}
+
