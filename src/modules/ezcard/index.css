@@ -27,8 +27,13 @@
 	margin-left:1em;
 	margin-right:1em;
 	text-align: center;
-	min-height: 28em	
+	/*min-height: 28em	*/
 }
+.class-management_folder .Card:h3{
+	    margin-top: 0rem!important;
+		line-height: 0.8em;
+}
+
 .class-management_folder .Card:hover{
 	background-color: #ebffe7 !important; 
 }
