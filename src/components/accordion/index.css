@@ -23,11 +23,11 @@
 
 .Accordion--plus .Accordion-header,
 .Accordion--default .Accordion-header {
-  @extend .u-color-grey-30;
+  background-color: #ebffe7 !important;
   @extend .u-border-top-xxs;
   @extend .u-text-r-xs;
-  @extend .u-padding-r-bottom;
-  @extend .u-padding-r-top;
+  /** @extend .u-padding-r-bottom;
+      @extend .u-padding-r-top;*/
 }
 
 .Accordion--plus .Accordion-header:first-child,
@@ -37,7 +37,7 @@
 
 .Accordion--plus .Accordion-header:hover,
 .Accordion--default .Accordion-header:hover {
-  @extend .u-background-5;
+  background-color: #ebffe7 !important;
 }
 
 .Accordion-link {

@@ -13,7 +13,7 @@
 @media (--md-viewport), (--lg-viewport) {
 
   .Card .u-layout-prose{
-    min-height: 23rem;
+    min-height: 20rem;
   }
   
   .Card .u-layout-proseHome{
@@ -38,10 +38,11 @@
 .class-management_folder .Card:hover{
 	background-color: #ebffe7 !important; 
 }
+
 .class-management_folder .img-circle{
 	border: 0px  ;
 	border-radius: 50%;
-	max-width: 100%;
+	max-width: 60%;
 	padding-right: 0.4em;
     padding-left: 0.4em;
 }
@@ -53,7 +54,7 @@
 
 @media (--lg-viewport) {
 	.container-management_folder{
-		width: 1270px;;
+		width: 1100px;;
 	}
 	.class-management_folder .presidentdiv {
 		padding-left: 2.4em;
@@ -97,6 +98,24 @@
 .class-management_folder  .organigramma{
 	text-align: center;		
 }
+
+.organigrammatitle {    
+    margin-bottom: 3em;
+    margin-top: 2em;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #ebffe7;
+}
+
+
+.class-management_folder .Accordion-header{
+    margin-top: 0em!important;
+}
+.class-management_folder .Accordion-header hover{
+    background-color: #ebffe7 !important; 
+}
+
 .class-management_folder .organigramma_child{
 	padding-top: 0.6em;
 	padding-bottom: 0.6em;
