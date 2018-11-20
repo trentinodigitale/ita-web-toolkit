@@ -47,16 +47,17 @@
   
   --Color-Header-Title: #fff;
 
-  --Color-banner-0 : #5CAD4C;
-  --Color-banner-1 : #005E82;
-  --Color-banner-2 : #008999;
-  --Color-banner-3 : #2EA2B9;
+  --Color-banner-0: #5CAD4C;
+  --Color-banner-1: #005E82;
+  --Color-banner-2: #008999;
+  --Color-banner-3: #2EA2B9;
   
-  --Color-site-0 : #5CAD4C; /* VerdeScuro*/
-  --Color-site-1 : #005E82; /* Blu */
-  --Color-site-2 : #008999; /* Turchese */
-  --Color-site-3 : #2EA2B9; /* Blu chiaro */
-  --Color-site-4 : #6EC05E; /* Verde */                          
+  --Color-site-0: #5CAD4C; /* VerdeScuro*/
+  --Color-site-1: #005E82; /* Blu */
+  --Color-site-2: #008999; /* Turchese */
+  --Color-site-3: #2EA2B9; /* Blu chiaro */
+  --Color-site-4: #6EC05E; /* Verde */ 
+  --Color-site-5: #6EC05E; /* Verde */
 }
 
 .u-color-site-0 {

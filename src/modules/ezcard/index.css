@@ -156,7 +156,9 @@
     width: 100%;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    background-color: #ebffe7;
+    background-color: var(--Color-site-4) !important;
+	@extend .u-color-white;
+	font-weight: 600 !important;
 }
 
 

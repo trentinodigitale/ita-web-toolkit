@@ -3,11 +3,12 @@
 /** @define Accordion */
 
 :root {
+
   --Accordion-border-color: var(--Color-grey-30);
-  --Accordion-link-arrow-up: svg-load("icons/img/SVG/collapse.svg", fill=var(--Color-50));
-  --Accordion-link-arrow-down: svg-load("icons/img/SVG/expand.svg", fill=var(--Color-50));
-  --Accordion-link-plus: svg-load("icons/img/SVG/plus.svg", fill=var(--Color-50));
-  --Accordion-link-minus: svg-load("icons/img/SVG/minus.svg", fill=var(--Color-50));
+  --Accordion-link-arrow-up: svg-load("icons/img/SVG/collapse.svg", fill=var(--Color-white));
+  --Accordion-link-arrow-down: svg-load("icons/img/SVG/expand.svg", fill=var(--Color-white));
+  --Accordion-link-plus: svg-load("icons/img/SVG/plus.svg", fill=var(--Color-white));
+  --Accordion-link-minus: svg-load("icons/img/SVG/minus.svg", fill=var(--Color-white));
   --Accordion-link-padding: 0.5em;
   --Accordion-link-arrow-width: 1em;
 }
@@ -23,7 +24,7 @@
 
 .Accordion--plus .Accordion-header,
 .Accordion--default .Accordion-header {
-  background-color: #ebffe7 !important;
+  background-color: var(--Color-site-4) !important;
   @extend .u-border-top-xxs;
   @extend .u-text-r-xs;
   /** @extend .u-padding-r-bottom;
@@ -37,7 +38,7 @@
 
 .Accordion--plus .Accordion-header:hover,
 .Accordion--default .Accordion-header:hover {
-  background-color: #ebffe7 !important;
+  background-color: var(--Color-site-4) !important;
 }
 
 .Accordion-link {
@@ -49,7 +50,7 @@
   @extend .u-textClean;
   @extend .u-padding-all-s;
   @extend .u-text-r-m;
-  @extend .u-color-50;
+  @extend .u-color-white;
   @extend .u-textWeight-600;
 }
 
