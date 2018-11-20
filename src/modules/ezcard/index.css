@@ -60,6 +60,15 @@
 		padding-left: 2.4em;
 		padding-right: 2.4em;
 	}
+        .management_ruolo {
+            min-height: 5.6em;
+            font-size: 0.4em!important;
+        }
+        
+        .cda_ruolo{
+            min-height: 5.6em;
+            font-size: 0.4em!important;
+        }
 }
 
 @media (--md-viewport) {
@@ -70,6 +79,22 @@
 		padding-left: 1.6em;
 		padding-right: 1.6em;
 	}
+         .management {
+            min-height: 21rem!important;
+        }
+        
+        .cda{
+            min-height: 16rem!important;
+        }
+         .management_ruolo {
+            min-height: 8.5rem;
+            font-size: 0.4em!important;
+        }
+       
+        .cda_ruolo{
+            min-height: 0rem;
+            font-size: 0.4em!important;
+        }
 }
 
 @media (--sm-viewport) {
@@ -80,14 +105,40 @@
 		padding-left: 1.3em;
 		padding-right: 1.3em;
 	}
+        
+        .management {
+            min-height: 21rem!important;
+        }
+        
+        .cda{
+            min-height: 14rem!important;
+        }
+        
+        .management_ruolo {
+            min-height: 8.5rem;
+            font-size: 0.4em!important;
+        }
+        .management:h3{
+            min-height: 6.5remrem;
+        }
+        .cda_ruolo{
+            min-height: 0rem;
+            font-size: 0.4em!important;
+        }
 }
 @media (--xs-viewport) {
-	.container-management_folder{
+	.container-management_folder .Grid-cell {            
 		padding-right: 15px;
 		padding-left: 15px;
-		margin-right: auto;
-		margin-left: auto;
+		margin-right: 30%;
+		margin-left: 30%;
 	}
+	.management_ruolo {           
+		font-size: 1.0rem!important;
+	}
+	.cda_ruolo {           
+        font-size: 1.0rem!important;
+    }
 }
 
 .class-management_members .img-circle{
