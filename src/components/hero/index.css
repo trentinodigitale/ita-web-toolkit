@@ -34,3 +34,15 @@
 
   opacity: 0.70;
 }
+
+@media (--md-viewport) {
+    .HeroResponsive{height:40rem!important}  
+}
+/* @media (--sm-viewport) { */
+@media (--sm-viewport) {
+    .HeroResponsive{height:33rem!important}  
+}
+
+@media (--xs-viewport) {
+    .HeroResponsive{height:22rem!important}
+  }

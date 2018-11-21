@@ -10,15 +10,31 @@
 }
 
 
-@media (--md-viewport), (--lg-viewport) {
+@media (--lg-viewport) {
 
   .Card .u-layout-prose{
-    min-height: 20rem;
+    min-height: 25rem;
   }
   
   .Card .u-layout-proseHome{
     min-height: 48rem;
   }
+}
+
+@media (--md-viewport) {
+
+  .Card .u-layout-prose{
+    min-height: 27rem;
+  }
+  
+}
+
+@media (--sm-viewport) {
+
+  .Card .u-layout-prose{
+    min-height: 22rem;
+  }
+  
 }
 
 /* css per Card in management_folder */ 
