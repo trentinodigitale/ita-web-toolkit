@@ -39,10 +39,20 @@
   @extend .u-padding-bottom-xxxl;
   @extend .u-padding-left-xs;
   @extend .u-padding-right-xs;
+  @extend .u-padding-bottom-l;
 }
+
+/* Sfondo grigio */
 
 .u-content.u-content-background-grey {
   @extend .u-background-grey-60;
+  @extend .u-color-white;
+}
+
+/* Sfondo primary */
+
+.u-content.u-content-background-primary {
+  @extend .u-background-50;
   @extend .u-color-white;
 }
 
@@ -89,7 +99,8 @@
   font-size: 3.2rem !important;
 }
 
-.u-content.u-content-background-grey .u-content-main .u-content-title h1 {
+.u-content.u-content-background-grey .u-content-main .u-content-title h1,
+.u-content.u-content-background-primary .u-content-main .u-content-title h1 {
   @extend .u-color-white;
 }
 
@@ -131,7 +142,8 @@
   font-size:2.4rem;
 }
 
-.u-content.u-content-background-grey .u-content-main .u-content-search .u-content-search-label span {
+.u-content.u-content-background-grey .u-content-main .u-content-search .u-content-search-label span,
+.u-content.u-content-background-primary .u-content-main .u-content-search .u-content-search-label span {
   @extend .u-color-white;
 }
 
@@ -139,7 +151,7 @@
   @extend .Grid-cell;
   @extend .u-md-size4of12;
   @extend .u-lg-size5of12;
-  padding-top: 1.1rem;
+  padding-top: 1.3rem;
 }
 
 .u-content .u-content-main .u-content-search .u-content-search-class button {
@@ -147,22 +159,26 @@
   @extend .u-color-grey-30;
   cursor: pointer;
 }
+.u-content .u-content-main .u-content-search .u-content-search-class button.selected {
+  @extend .u-color-teal-30;
+}
 
 .u-content .u-content-main .u-content-search .u-content-search-date {
   @extend .Grid-cell;
-  @extend .u-md-before1of12;
-  @extend .u-md-size2of12;
-  @extend .u-lg-before2of12;
-  @extend .u-lg-size2of12;
+  @extend .u-md-size3of12;
+  @extend .u-lg-before1of12;
+  @extend .u-lg-size3of12;
   @extend .u-padding-bottom-xs;
-  padding-top: 1.1rem;
+  padding-top: 1.3rem;
 }
 
 .u-content .u-content-main .u-content-search .u-content-search-date button {
   cursor: pointer;
 }
 
-.u-content.u-content-background-grey .u-content-main .u-content-search .u-content-search-date button {
+
+.u-content.u-content-background-grey .u-content-main .u-content-search .u-content-search-date button,
+.u-content.u-content-background-primary .u-content-main .u-content-search .u-content-search-date button {
   @extend .u-color-white;
 }
 
@@ -170,6 +186,11 @@
   @extend .Grid-cell;
   @extend .u-md-size3of12;
   @extend .u-lg-size2of12;
+}
+
+.u-content.u-content-background-grey .u-records-found,
+.u-content.u-content-background-primary .u-records-found {
+  @extend .u-color-white;
 }
 
 @media (--xs-viewport), (--sm-viewport) {
