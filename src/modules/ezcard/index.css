@@ -12,10 +12,12 @@
 
 @media (--lg-viewport) {
 
-  .Card .u-layout-prose{
+  .Card .management{
     min-height: 25rem;
   }
-  
+  .Card .cda{
+    min-height: 16rem!important;
+  }
   .Card .u-layout-proseHome{
     min-height: 48rem;
   }
@@ -76,13 +78,12 @@
 		padding-left: 2.4em;
 		padding-right: 2.4em;
 	}
-        .management_ruolo {
+       
+	   .management_ruolo {
             min-height: 5.6em;
             font-size: 0.4em!important;
-        }
-        
-        .cda_ruolo{
-            min-height: 5.6em;
+        }        
+        .cda_ruolo{           
             font-size: 0.4em!important;
         }
 }
