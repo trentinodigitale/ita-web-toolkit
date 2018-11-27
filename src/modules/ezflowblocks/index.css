@@ -311,65 +311,129 @@
 
 }
 
-/* modifiche omar *
+/*
+ * AGENDA
+ */
 
-body .u-lg-size1of3 .u-flow-panels section a.thumbnail {
-    margin-bottom: 0 !important;
+.u-flow-agenda {
+  @extend .u-padding-r-top;
+  margin-left: -10rem;
+  margin-right: -10rem;
+  margin-top: 3rem;
 }
 
-body .u-lg-size1of3 .u-flow-panels section {
-    padding-bottom: 0 !important;
+.u-flow-agenda section {
+@extend .u-padding-r-top;
+@extend .u-padding-r-bottom;
+@extend .u-layout-r-withGutter;
+@extend .u-text-r-s;
 }
 
-body section.u-flow-panels {
-    padding: 2.4rem !important;
-    padding-bottom: 0rem !important;
+/*
+.u-days-grid .Grid-cell:nth-child(even){
+  @extend .u-background-30;
+}
+*/
+
+.u-flow-agenda section .arrow {
+  margin-top: -39px;
 }
 
-body section.u-flow-panels .u-margin-bottom-xl {
-    margin-left: 0.8rem !important;
-    margin-right: 0.8rem !important;
+.u-flow-agenda section .u-see-all {
+  font-size: 2.4rem;
+  padding-top: 1rem;
 }
 
-.Grid-cell.u-md-size1of2.u-lg-size1of3 .u-flow-panels section {
-    padding-top: 0 !important;
+.u-flow-agenda section .arrow .arrow-white {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
 }
 
-.Footer .u-flow {
-    padding-left:13.4rem !important;
+.u-flow-agenda section .u-next-button {
+  @extend .u-color-white;
+  cursor: pointer;
+  font-size: 2.4rem;
 }
 
-.Footer .u-flow:nth-child(3) {
-    font-size: 1.2rem;
+.u-flow-agenda section .u-next-button i {
+  margin-top: 1.8rem;
 }
 
-.Footer p, .Footer h2 {
-  font-size: 1.6rem;
+.u-flow-agenda section .u-prev-button {
+  @extend .u-color-white;
+  cursor: pointer;
+  font-size: 2.4rem;
 }
 
-h2.Footer-blockTitle {
-    font-size: 1.8rem !important;
-    padding-bottom: 1rem !important;
+.u-flow-agenda section .u-prev-button i {
+  margin-top: 1.8rem;
 }
 
-.Footer h2 .fa {
-    font-size: 2rem;
-    top: 2px;
-    position: relative;
-    margin-right: 0.5rem;
+
+.u-flow-agenda section .u-day {
+  background: var(--Color-40);
+  font-size: 2rem;
+  height: 6rem;
+  margin-left: 25%;
+  padding: .5rem;
+  width: 50%;
+}
+
+.u-flow-agenda section .u-day.selected {
+  @extend .u-background-teal-30;
+}
+
+.u-flow-agenda section .u-day-events {
+  @extend .u-margin-top-l;
+  margin-left: -10.4rem;
+  margin-right: -10.4rem;
+  padding-left: 10.4rem;
+  padding-right: 10.4rem;
+  background: var(--Color-60);
+}
+
+.u-selected-day .u-selected-day-arrow {
+  height: 0;
+  border-top: 2rem solid var(--Color-teal-30);
 }
 
 @media (--xs-viewport), (--sm-viewport) {
-  body section.u-flow-panels .u-margin-bottom-xl {
-      margin-left: 0.8rem !important;
-      margin-right: 0.8rem !important;
+
+  .u-flow-agenda {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
-  .Footer .u-flow {
-      padding-left: 3rem!important;
+
+  .u-flow-agenda section {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
-  body section.u-flow-panels {
-      padding: 1.2rem!important;
-      padding-bottom: 0!important;
+
+}
+
+@media (--lg-viewport) {
+
+  .u-flow-agenda section .u-prev-button {
+    position: absolute;
+    left: 10rem;
+  }
+
+  .u-flow-agenda section .u-next-button {
+    position: absolute;
+    right: 10rem;
   }
 }
-*/
+
+@media (--xs-viewport), (--sm-viewport), (--sm-viewport) {
+
+  .u-selected-day {
+    display: none !important;
+  }
+
+}

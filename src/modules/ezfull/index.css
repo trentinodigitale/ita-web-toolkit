@@ -94,7 +94,7 @@
 
 .u-content .u-content-main .u-content-title h1 {
   @extend .u-color-grey-60;
-  @extend .u-margin-top-l;
+  @extend .u-margin-top-xxxl;
   @extend .u-margin-bottom-l;
   font-size: 3.2rem !important;
 }
@@ -117,9 +117,8 @@
 }
 
 .u-content .u-content-main .u-content-title .u-content-date {
-  @extend .u-margin-top-xxxl;
+  @extend .u-margin-top-s;
   @extend .u-textWeight-700;
-  @extend .u-color-teal-30;
   font-size: 2rem !important;
 }
 
@@ -237,10 +236,13 @@
 
 .u-content .u-content-main .u-content-main-image img {
   width: 100%;
+  font-size: 2rem;
 }
 
 .u-content .u-content-main .tags {
   @extend .u-margin-top-xxl;
+  @extend .u-textWeight-700;
+  font-size: 2rem;
 }
 
 .u-content .u-content-main .tags .tags-margin {
@@ -257,7 +259,7 @@
 }
 
 .u-content .u-content-main .tags a {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 /* banner */
@@ -334,9 +336,14 @@
 
 .u-content .u-content-related .u-content-related-item h4 {
   @extend .u-margin-bottom-m;
+  font-size: 2rem;
 }
 .u-content .u-content-related .u-content-related-item h4 .mdi {
   @extend .u-color-grey-40;
+}
+.u-content .u-content-related .u-content-related-item h4 .fa {
+  @extend .u-color-grey-40;
+  font-size: 2.4rem;
 }
 
 .u-content .u-content-related .u-content-related-item h4 .u-content-related-item-title {
@@ -369,6 +376,26 @@
     @extend .u-padding-bottom-xxxl;
   }
 }
+.u-content .u-content-related .u-date-geo {
+  @extend .u-background-50;
+  margin: -2rem;
+  padding: 4rem !important;
+  color: white !important;
+  font-size: 2rem !important;
+  border-bottom: 2rem solid white;
+}
+
+.u-content .u-content-related .u-date-geo .u-arrow-left {
+  position: relative;
+  left: -4rem;
+  height: 0;
+  width: 0;
+  border-left: 3rem solid white;
+  border-right: 3rem solid transparent;
+  border-top: 3rem solid transparent;
+  border-bottom: 3rem solid transparent;
+}
+
 
 /*
  * TREEVIEW
