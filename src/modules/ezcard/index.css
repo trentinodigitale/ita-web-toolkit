@@ -118,7 +118,14 @@
 
 
 @media (--xs-viewport), (--sm-viewport) {
+
     .u-calendar-arrow{
         display: none;
     }
+
+    .Card.u-event .u-event-tematica {
+        margin-bottom: 5rem;
+    }
+
 }
+

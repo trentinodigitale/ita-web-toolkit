@@ -24,7 +24,8 @@
 }
 
 .u-flow-panels section {
-  @extend .u-layout-r-withGutter;
+  @extend .u-layoutCenter;
+  @extend .u-layout-wide;
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
   @extend .u-text-r-s;
@@ -161,7 +162,8 @@
 }
 
 .u-flow-links section {
-  @extend .u-layout-r-withGutter;
+  @extend .u-layoutCenter;
+  @extend .u-layout-wide;
   @extend .u-text-r-s;
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
@@ -265,7 +267,8 @@
 }
 
 .u-flow-treeview section {
-  @extend .u-layout-r-withGutter;
+  @extend .u-layoutCenter;
+  @extend .u-layout-wide;
   @extend .u-text-r-s;
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
@@ -282,7 +285,8 @@
 }
 
 .u-flow-map .u-map-title {
-  @extend .u-layout-r-withGutter;
+  @extend .u-layoutCenter;
+  @extend .u-layout-wide;
   @extend .u-text-r-s;
   @extend .u-padding-r-top;
   @extend .u-padding-r-bottom;
@@ -323,10 +327,11 @@
 }
 
 .u-flow-agenda section {
-@extend .u-padding-r-top;
-@extend .u-padding-r-bottom;
-@extend .u-layout-r-withGutter;
-@extend .u-text-r-s;
+  @extend .u-padding-r-top;
+  @extend .u-padding-r-bottom;
+  @extend .u-layoutCenter;
+  @extend .u-layout-wide;
+  @extend .u-text-r-s;
 }
 
 /*
@@ -377,12 +382,14 @@
 
 
 .u-flow-agenda section .u-day {
-  background: var(--Color-40);
+  color: var(--Color-primary);
+  background: var(--Color-white);
   font-size: 2rem;
+  font-weight: bold;
   height: 6rem;
-  margin-left: 25%;
+  margin-left: 15%;
   padding: .5rem;
-  width: 50%;
+  width: 70%;
 }
 
 .u-flow-agenda section .u-day.selected {
@@ -391,10 +398,6 @@
 
 .u-flow-agenda section .u-day-events {
   @extend .u-margin-top-l;
-  margin-left: -10.4rem;
-  margin-right: -10.4rem;
-  padding-left: 10.4rem;
-  padding-right: 10.4rem;
   background: var(--Color-60);
 }
 
@@ -417,6 +420,7 @@
 
 }
 
+/*
 @media (--lg-viewport) {
 
   .u-flow-agenda section .u-prev-button {
@@ -429,11 +433,24 @@
     right: 10rem;
   }
 }
+*/
 
-@media (--xs-viewport), (--sm-viewport), (--sm-viewport) {
+@media (--xs-viewport), (--sm-viewport), (--md-viewport) {
 
   .u-selected-day {
     display: none !important;
   }
 
 }
+
+/* Custom grid */
+.u-size5Perc {
+  flex-basis: auto !important;
+  width: 5% !important;
+}
+
+.u-size90Perc {
+  flex-basis: auto !important;
+  width: 90% !important;
+}
+
