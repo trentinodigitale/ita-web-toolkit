@@ -192,8 +192,9 @@
   @extend .u-padding-left-xl;
   @extend .u-padding-right-xl;
   @extend .u-borderShadow-m;
-  width: 100%;
+  width: 99%;
 }
+
 
 .Megamenu--default .Megamenu-subnavGroup > li {
   @extend .u-color-grey-50;
