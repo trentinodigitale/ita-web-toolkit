@@ -153,6 +153,18 @@
   @extend .u-margin-top-xs;
 }
 
+@media (--xs-viewport), (--sm-viewport) {
+
+  .u-flow-panels section .u-flow-banner .u-banner-content {
+    margin-left: 12rem;
+  }
+
+  .u-flow-panels section .u-flow-banner .u-banner-content .u-banner-title {
+    font-size: 2rem;
+  }
+
+}
+
 /*
  * LINKS
  */

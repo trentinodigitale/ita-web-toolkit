@@ -153,6 +153,15 @@
   }
 }
 
+
+@media (--sm-viewport), (--xs-viewport) {
+
+  .Header-title img {
+    width: 18rem;
+  }
+
+}
+
 .Header-titleLink {
   @media (--md-viewport) {
     @extend .u-padding-left-s;
