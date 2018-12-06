@@ -205,6 +205,7 @@
 
 }
 
+/*
 .u-content .u-content-main .Prose {
   @extend .u-margin-top-m;
   margin-bottom: 0 !important;
@@ -233,6 +234,7 @@
   margin-bottom: 0 !important;
   margin-top: 3rem!important;
 }
+*/
 
 .u-content .u-content-main .u-content-main-image img {
   width: 100%;

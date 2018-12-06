@@ -1,13 +1,29 @@
 
 .Card {
-  @extend .u-margin-bottom-s;
+  @extend .u-margin-bottom-xxxl;
 }
 
 .Card figure {
-    min-height: 20rem;
+    min-height: 30rem;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+}
+
+.Card .u-card-tag {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Card .u-card-date {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.Card .u-card-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
 }
 
 .Card .u-card-abstract {

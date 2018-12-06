@@ -183,6 +183,11 @@
   @extend .u-margin-top-m;
 }
 
+.u-flow-links section .u-see-all {
+  font-size: 2.4rem;
+  padding-top: 1rem;
+}
+
 @media (--xs-viewport), (--sm-viewport) {
 
   .u-flow-links {
@@ -385,7 +390,6 @@
   color: var(--Color-primary);
   background: var(--Color-white);
   font-size: 2rem;
-  font-weight: bold;
   height: 6rem;
   margin-left: 15%;
   padding: .5rem;
