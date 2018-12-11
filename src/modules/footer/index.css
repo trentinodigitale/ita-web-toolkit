@@ -77,7 +77,7 @@
 
 .Footer-block a {
   @extend .u-text-r-xxs;
-  @extend .u-textWeight-700;
+  /* @extend .u-textWeight-700; */
 }
 
 .Footer-links {
