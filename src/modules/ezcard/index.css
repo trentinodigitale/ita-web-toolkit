@@ -39,6 +39,10 @@
   
 }
 
+.Card .u-textSecondary{
+    font-size: 1.6rem !important;
+}
+
 /* css per Card in management_folder */ 
 
 .class-management_folder .Card{
