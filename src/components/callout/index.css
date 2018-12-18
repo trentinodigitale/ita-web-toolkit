@@ -27,6 +27,9 @@
   border-top-color: color(var(--Callout-color-must) l(-70%));
 }
 
+.class-pagina_trasparenza .Callout--must{
+    background: #f0f6fb !important;
+}
 .Callout--must > .Callout-title {
   color: color(var(--Callout-color-must) l(-70%));
 }

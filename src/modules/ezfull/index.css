@@ -286,6 +286,10 @@
 	cursor: pointer;
 }
 
+/* css per class-pagina_trasparenza H3 */
+.class-pagina_trasparenza .u-content-main .u-content-main-side-3 H3{
+    color: #27509c !important;
+}
 
 /* css per managementMember */
 .managementMember img {float: left;width: 14%;height: 14%;margin-right: 15px;margin-bottom: 35px;}
