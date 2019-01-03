@@ -398,6 +398,15 @@
   border-bottom: 3rem solid transparent;
 }
 
+.u-content .u-content-related .u-gallery .u-thumbnail {
+  display: block;
+  margin: .4rem;
+}
+
+.u-content .u-content-related .u-gallery .u-thumbnail img {
+  width: 100%;
+}
+
 
 /*
  * TREEVIEW

@@ -20,7 +20,7 @@
 }
 
 .Footer a {
-  color: var(--Footer-color-link);
+  color: var(--Footer-color-link) !important;
 }
 
 .Footer-logo {
@@ -45,7 +45,7 @@
 .Footer-subBlock {
   @extend .u-color-grey-50;
   @extend .u-border-top-xxs;
-  @extend .u-padding-all-s;
+  @extend .u-padding-top-s;
 }
 
 .Footer-subTitle {
@@ -80,7 +80,6 @@
 
 .Footer-block a {
   @extend .u-text-r-xxs;
-  @extend .u-textWeight-700;
 }
 
 .Footer-links {
