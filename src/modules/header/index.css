@@ -428,3 +428,25 @@
 
   /* transform: translateY(-100%); */
 }
+
+
+/* Scroll Progressbar
+  ================================================ */
+.Header-progress {
+  background-color: white;
+  height: .5rem;
+  width: 100%;
+}
+
+.Header-progress.fixed {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Header-progress .u-progress-bar {
+  height: .5rem;
+  background: var(--Color-teal-30);
+  width: 0%;
+}
