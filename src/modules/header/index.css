@@ -97,10 +97,10 @@
   ========================================== */
 
 .Header-logo {
-  @extend .u-size2of12;
-  @extend .u-sm-size2of12;
-  @extend .u-md-size1of12;
-  @extend .u-lg-size1of12;
+  @extend .u-size3of12;
+  @extend .u-sm-size3of12;
+  @extend .u-md-size2of12;
+  @extend .u-lg-size2of12;
 }
 
 .Header-logo,
@@ -116,12 +116,24 @@
   @extend .u-alignMiddle;
 
   height: 4.5rem;
-  width: 4.5rem;
+  width: 7.5rem;
 
   @media (--sm-viewport), (--md-viewport), (--lg-viewport) {
     height: 7.5rem;
-    width: 7.5rem;
+    width: 12.5rem;
   }
+}
+
+.Header-logo-row {
+  background: var(--Color-40);
+  height: 4.5rem;
+  margin-left: 50%;
+  width: .5rem;
+
+  @media (--sm-viewport), (--md-viewport), (--lg-viewport) {
+    height: 7.5rem;
+  }
+
 }
 
 /* Title link
@@ -133,7 +145,7 @@
 
   @extend .u-lineHeight-xxs;
 
-  @extend .u-size6of12;
+  @extend .u-size5of12;
   @extend .u-sm-size4of12;
   @extend .u-md-size5of12;
   @extend .u-lg-size5of12;
@@ -176,6 +188,21 @@
   color: var(--Header-text-color);
 }
 
+.Header-siteLogo {
+  float: left;
+  height: 4.5rem;
+
+  @media (--sm-viewport), (--md-viewport), (--lg-viewport) {
+    height:7.5rem;
+  }
+
+}
+
+.Header-siteTitle {
+  float: left;
+  margin-left: 1rem;
+}
+
 /* Search button for small screens
   ========================================== */
 
@@ -206,12 +233,11 @@
   @extend .u-textRight;
 
   @extend .u-sizeFull;
-  @extend .u-sm-size4of12;
-  @extend .u-md-size4of12;
+  @extend .u-sm-size3of12;
+  @extend .u-md-size5of12;
   @extend .u-lg-size4of12;
 
-  @extend .u-md-before2of12;
-  @extend .u-lg-before2of12;
+  @extend .u-lg-before1of12;
 
   @extend .u-sm-flexOrderNone;
   @extend .u-md-flexOrderNone;
@@ -244,14 +270,18 @@
 
 .Header-search {
   @extend .u-padding-all-xxs;
+
   @media (--sm-viewport), (--md-viewport), (--lg-viewport) {
     @extend .u-margin-bottom-m;
     @extend .u-padding-left-m;
     @extend .u-padding-right-none;
     @extend .u-floatRight;
-
-    max-width: var(--Header-search-maxWidth);
   }
+
+  @media (--md-viewport), (--lg-viewport) {
+    width: 75%;
+  }
+
 }
 
 .Header-search.is-active {
@@ -341,6 +371,12 @@
 
   background-color: var(--Header-socialIcons-bg);
   color: var(--Header-navbar-bg);
+}
+
+.Header-socialLeft {
+  float: left !important;
+  width: 25% !important;
+  margin-top: 1.5rem;
 }
 
 /*
@@ -436,6 +472,7 @@
   background-color: white;
   height: .5rem;
   width: 100%;
+  z-index: 10;
 }
 
 .Header-progress.fixed {
