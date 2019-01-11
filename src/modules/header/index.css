@@ -13,7 +13,10 @@
 }
 
 .Header {
+  position: fixed;
+  top:0;
   width: 100%;
+  z-index: 10;
 }
 
 .Header-banner {
@@ -486,4 +489,19 @@
   height: .5rem;
   background: var(--Color-teal-30);
   width: 0%;
+}
+
+/* Body
+  ================================================ */
+.u-body {
+  margin-top: 106px;
+
+  @media (--sm-viewport) {
+    margin-top: 155px;
+  }
+
+  @media (--md-viewport), (--lg-viewport) {
+    margin-top: 221px;
+  }
+
 }
