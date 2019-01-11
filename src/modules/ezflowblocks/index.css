@@ -21,6 +21,11 @@
 .u-flow-panels {
   @extend .u-layout-centerContent;
   @extend .u-padding-r-top;
+
+@media (--lg-viewport), (--md-viewport) {
+  margin-right: 33%;
+}
+
 }
 
 .u-flow-panels section {
@@ -269,6 +274,11 @@
 .u-flow-treeview {
   @extend .u-layout-centerContent;
   @extend .u-padding-r-top;
+
+  @media (--lg-viewport), (--md-viewport) {
+    margin-right: 33%;
+  }
+
 }
 
 .u-flow-treeview section {

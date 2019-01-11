@@ -49,7 +49,7 @@
   @extend .u-textClean;
   @extend .u-padding-all-s;
   @extend .u-text-r-m;
-  @extend .u-color-50;
+  @extend .u-color-grey-50;
   @extend .u-textWeight-600;
 }
 

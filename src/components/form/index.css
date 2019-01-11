@@ -78,9 +78,11 @@ option:hover {
   content: " * ";
 } */
 
+/*
 .Form-label.is-checked {
   background: var(--Form-label-checked-background);
 }
+*/
 
 .Form-field.is-invalid .Form-input,
 .Form-field.is-warning .Form-input {
