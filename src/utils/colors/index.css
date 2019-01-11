@@ -28,7 +28,7 @@
   --Color-20: color(var(--Color-primary) l(+30%) s(-30%));
   --Color-30: color(var(--Color-primary) l(+20%) s(-20%));
   --Color-40: color(var(--Color-primary) l(+8%) s(-15%));
-  --Color-50: var(--Color-primary);
+  --Color-50: #0092D4;
   --Color-60: color(var(--Color-primary) l(-5%));
   --Color-70: color(var(--Color-primary) l(-10%));
   --Color-80: color(var(--Color-primary) l(-15%));
