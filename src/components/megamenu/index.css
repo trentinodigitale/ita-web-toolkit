@@ -117,7 +117,7 @@
 .Megamenu--default {
   @extend .u-layout-r-withGutter;
 
-  background-color: color(var(--Color-primary) l(+5%) s(-15%));
+  background-color: var(--Color-primary);
 }
 
 .Megamenu--default > .Megamenu-list {

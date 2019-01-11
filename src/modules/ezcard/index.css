@@ -1,11 +1,147 @@
 
 .Card {
-  @extend .u-margin-bottom-s;
+  @extend .u-margin-bottom-xxxl;
 }
 
 .Card figure {
-    min-height: 20rem;
+    min-height: 30rem;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
 }
+
+.Card .u-card-tag {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.Card .u-card-date {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.Card .u-card-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.Card .u-card-abstract {
+    @extend .u-margin-top-m;
+    @extend .u-color-black;
+}
+
+.u-content-background-grey .Card .u-card-abstract {
+    @extend .u-color-white;
+}
+
+.Card .u-card-class {
+    @extend .u-color-teal-30;
+    @extend .u-textWeight-600;
+}
+
+.Card .u-card-class .u-card-class-icon {
+    @extend .u-margin-right-xs;
+    font-size: 3rem;
+}
+
+
+.Card .u-card-class .u-card-class-name {
+    font-size: 2rem;
+}
+
+/* EVENTO */
+
+.Card.u-event {
+    @extend .u-padding-all-xl;
+    margin-bottom: 0 !important;
+}
+
+.Card.u-event .u-event-tematica {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Card.u-event.u-background-teal-30 .u-event-tematica a {
+    @extend .u-color-60;
+}
+
+.Card.u-event.u-background-60 .u-event-tematica a {
+    @extend .u-color-teal-30;
+}
+
+.Card.u-event.u-background-teal-30 .u-event-date,
+.Card.u-event.u-background-teal-30 .u-event-details {
+    border-left: 1px solid var(--Color-60);
+    padding-left: 2rem;
+}
+
+.Card.u-event.u-background-60 .u-event-date,
+.Card.u-event.u-background-60 .u-event-details {
+    border-left: 1px solid var(--Color-teal-30);
+    padding-left: 2rem;
+}
+
+.Card.u-event .u-event-date .u-event-element {
+    font-size: 1.6rem;
+}
+
+.Card.u-event .u-event-date .u-event-element.u-up {
+    position: relative;
+    top: -2rem;
+}
+
+.Card.u-event.u-background-teal-30 .u-event-details .u-event-title {
+    @extend .u-color-60;
+    @extend .u-margin-bottom-m;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.Card.u-event.u-background-60 .u-event-details .u-event-title {
+    @extend .u-color-teal-30;
+    @extend .u-margin-bottom-m;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.Card.u-event.u-background-teal-30 .u-event-details .u-event-abstract {
+    font-size: 1.8rem;
+}
+
+.Card.u-event.u-background-teal-30 .u-calendar-arrow {
+    position: relative;
+    top: -3.2rem;
+    left: -4rem;
+    height: 0;
+    width: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid var(--Color-60);
+}
+
+
+.Card.u-event.u-background-60 .u-calendar-arrow {
+    position: relative;
+    top: -3.2rem;
+    left: -4rem;
+    height: 0;
+    width: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid var(--Color-teal-30);
+}
+
+
+@media (--xs-viewport), (--sm-viewport) {
+
+    .u-calendar-arrow{
+        display: none;
+    }
+
+    .Card.u-event .u-event-tematica {
+        margin-bottom: 5rem;
+    }
+
+}
+

@@ -39,6 +39,13 @@
   --Color-compl-5: color(var(--Color-primary) h(+180) s(20%) l(95%));
   --Color-compl-10: color(var(--Color-primary) h(+180) s(30%) l(90%));
   --Color-compl-80: color(var(--Color-primary) h(+180));
+
+  --Color-trentino-10: #00638e;
+  --Color-trentino-20: #0083a5;
+  --Color-trentino-30: #0092d4;
+  --Color-trentino-40: #80ba27;
+  --Color-trentino-50: #cad400;
+  --Color-trentino-60: #0d52a0;
 }
 
 .u-color-black {
@@ -279,4 +286,28 @@
 
 .u-background-compl-80 {
   background-color: var(--Color-compl-80) !important;
+}
+
+.u-background-trentino-10 {
+  background-color: var(--Color-trentino-10) !important;
+}
+
+.u-background-trentino-20 {
+  background-color: var(--Color-trentino-20) !important;
+}
+
+.u-background-trentino-30 {
+  background-color: var(--Color-trentino-30) !important;
+}
+
+.u-background-trentino-40 {
+  background-color: var(--Color-trentino-40) !important;
+}
+
+.u-background-trentino-50 {
+  background-color: var(--Color-trentino-50) !important;
+}
+
+.u-background-trentino-60 {
+  background-color: var(--Color-trentino-60) !important;
 }

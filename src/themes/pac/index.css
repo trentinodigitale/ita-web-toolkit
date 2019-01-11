@@ -1,7 +1,7 @@
 :root {
   --Color-primary: #0083a5;
   --Pac-font-family-sans: Titillium Web, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-  
+
   --Table-stripe-color: var(--Color-grey-20);
 }
 
@@ -12,4 +12,14 @@
 
 .t-Pac {
   font-family: var(--Pac-font-family-sans);
+}
+
+.t-Pac a,
+.t-Pac a:visited {
+  color: var(--Color-primary);
+  text-decoration: none;
+}
+
+.t-Pac a:hover {
+  text-decoration: underline;
 }

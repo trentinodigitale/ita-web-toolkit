@@ -9,7 +9,7 @@ const opts = {
     nav: false,
     // navText: ['precedente', 'successivo'],
     items: 3,
-    dots: false,
+    dots: true,
     loop: false,
     margin: 16,
     mouseDrag: true,
