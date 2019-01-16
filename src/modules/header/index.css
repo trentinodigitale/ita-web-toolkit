@@ -12,7 +12,7 @@
   --Header-search-maxWidth: 20em;
 }
 
-.Header {
+.Header-fixed {
   position: fixed;
   top:0;
   width: 100%;
