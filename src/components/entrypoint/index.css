@@ -1,10 +1,49 @@
 /** @define Entrypoint; */
 
+.EntryPoint{
+  @extend .u-padding-r-top;
+  margin-left: -10rem;
+  margin-right: -10rem;
+}
+
 .Entrypoint-item {
-  @extend .u-sizeFill;
   @extend .u-borderRadius-m;
-  @extend .u-margin-bottom-xs;
-  @extend .u-borderShadow-xxs;
+  @extend .u-color-grey-40;
+  border-style: solid;
+  border-width: 1.5px;
+  cursor: pointer;
+  display: block;
+  /**@extend .u-sizeFill;  
+  @extend .u-margin-bottom-xs;  
   @extend .u-text-r-l;
-  @extend .u-padding-r-all;
+  @extend .u-padding-r-all;*/
+  
+}
+
+.Entrypoint-itemactive {
+  @extend .u-borderRadius-m;
+  @extend .u-color-grey-40;
+  @extend -u-background-50;
+  border-style: solid;
+  border-width: 1.5px;
+  cursor: pointer;
+  display: block;
+}
+.Entrypoint-item a{  
+	font-size: 2rem!important;
+	font-weight: bold;
+}
+
+
+.Entrypoint-item:hover{
+  @extend .u-background-10;
+}
+
+.Entrypoint-item:active a{  
+  @extend .u-color-white;
+}
+
+.Entrypoint-item:active{
+  @extend .u-background-50;
+  @extend .u-color-white;
 }
