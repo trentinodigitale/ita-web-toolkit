@@ -49,31 +49,32 @@
 	@extend .u-color-white;
 }
 
-/* InverseColo */
+/* InverseColor */
+.EntryPointInverseColor {
+  background-color: var(--Color-95) !important;
+}
 
-.EntryPointInverseColor .Entrypoint-item{
+.EntryPointInverseColor .Entrypoint-item {
   @extend .u-background-90;
   border-color: var(--Color-white) !important;
   @extend .u-color-90;
 }
 
-.EntryPointInverseColor .Entrypoint-item a{
+.EntryPointInverseColor .Entrypoint-item a {
 	@extend .u-color-white;
 }
 
-.EntryPointInverseColor .Entrypoint-Ico{
+.EntryPointInverseColor .Entrypoint-Ico {
 	@extend .u-color-50;
 }
 
-.EntryPointInverseColor .Entrypoint-Ico:active{
-	@extend .u-color-white;
+.EntryPointInverseColor .Entrypoint-item:active {
+  background-color: var(--Color-50) !important;
+  color: var(--Color-teal-30) !important;
 }
 
-.EntryPointInverseColor .Entrypoint-item:active{
-	@extend .u-color-white;
-}
-.EntryPointInverseColor .Entrypoint-item:hover{
-  @extend .u-background-70;
+.EntryPointInverseColor .Entrypoint-item:hover {
+  background-color: var(--Color-80) !important;
   border-color: var(--Color-grey-50) !important;
 }
 
@@ -192,3 +193,30 @@
 }
 
 /********************************************************/
+/********************************************************/
+/****************** buttons_entrypoint*******************/
+/********************************************************/
+
+.buttons_entrypoint {
+    min-height:22.7rem!important;
+
+}
+
+.Content_entrypoint {
+    margin-top: 8rem!important;
+}
+
+.Content_entrypointIco {
+    margin-top: 4.5rem!important;
+}
+
+
+
+
+
+
+
+
+
+
+
