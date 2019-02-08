@@ -171,6 +171,32 @@
   margin-right: 10rem;
 }
 
+.u-flow-links section .arrow {
+  margin-top: -39px;
+}
+
+.u-flow-links section .arrow .arrow-white {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  color: #fff;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
+.u-flow-links section .arrow .arrow-gray {
+@extend .u-color-grey-10;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 24px solid;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+
 .u-flow-links section h2 {
   @extend .u-text-r-s;
   @extend .u-color-50;
