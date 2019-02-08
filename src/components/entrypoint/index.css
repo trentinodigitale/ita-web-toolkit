@@ -51,7 +51,7 @@
 
 /* InverseColor */
 .EntryPointInverseColor {
-  background-color: var(--Color-95) !important;
+  background-color: var(--Color-95);
 }
 
 .EntryPointInverseColor .Entrypoint-item {
@@ -69,12 +69,12 @@
 }
 
 .EntryPointInverseColor .Entrypoint-item.active {
-  background-color: var(--Color-50) !important;
+  background-color: var(--Color-5) !important;
   color: var(--Color-teal-30) !important;
 }
 
 .EntryPointInverseColor .Entrypoint-item:hover {
-  background-color: var(--Color-80) !important;
+  background-color: var(--Color-80);
   border-color: var(--Color-grey-50) !important;
 }
 
