@@ -26,19 +26,20 @@
   display: block;
 }
 .Entrypoint-item a{  
-	font-size: 2rem!important;
-	font-weight: bold;
+  font-size: 2.8rem!important;
+  font-weight: bold;
+  color: #9599A6 !important;
 }
 
 .Entrypoint-item:hover{
-  @extend .u-background-10;
+  background-color: var(--Color-10);
 }
 
-.Entrypoint-item:active a{  
+.Entrypoint-item.active a{
   @extend .u-color-white;
 }
 
-.Entrypoint-item:active{
+.Entrypoint-item.active{
   @extend .u-background-50;
   @extend .u-color-white;
 }
@@ -51,13 +52,13 @@
 
 /* InverseColor */
 .EntryPointInverseColor {
-  background-color: var(--Color-95) !important;
+  background-color: #5C871C !important;
 }
 
 .EntryPointInverseColor .Entrypoint-item {
-  @extend .u-background-90;
+  /*background-color: #5C871C !important;*/
+  color: #5C871C !important;
   border-color: var(--Color-white) !important;
-  @extend .u-color-90;
 }
 
 .EntryPointInverseColor .Entrypoint-item a {
@@ -68,18 +69,18 @@
 	@extend .u-color-50;
 }
 
-.EntryPointInverseColor .Entrypoint-item:active {
+.EntryPointInverseColor .Entrypoint-item.active {
+  @extend .u-background-50;
+}
+
+.EntryPointInverseColor .Entrypoint-item.active a {
   background-color: var(--Color-50) !important;
-  color: var(--Color-teal-30) !important;
 }
 
 .EntryPointInverseColor .Entrypoint-item:hover {
-  background-color: var(--Color-80) !important;
-  border-color: var(--Color-grey-50) !important;
+  background-color: var(--Color-80);
+  /*border-color: var(--Color-grey-50) !important;*/
 }
-
-
-
 
 /********************************************************/
 /****************** ziller ******************************/
@@ -109,11 +110,11 @@
 @extend .u-color-70;
 }
 
-.Entrypoint-item.Entrypoint-Primary:active {
+.Entrypoint-item.Entrypoint-Primary.active {
   background: white !important;
 }
 
-.Entrypoint-item.Entrypoint-Primary:active a {
+.Entrypoint-item.Entrypoint-Primary.active a {
 @extend .u-color-50;
 @extend .u-background-white;
 }
@@ -128,12 +129,12 @@
 @extend .u-color-grey-20;
 }
 
-.Entrypoint-item.Entrypoint-InfoGrey:active {
+.Entrypoint-item.Entrypoint-InfoGrey.active {
 @extend .u-background-grey-60;
 @extend .u-color-grey-60;
 }
 
-.Entrypoint-item.Entrypoint-InfoGrey:active a {
+.Entrypoint-item.Entrypoint-InfoGrey.active a {
 @extend .u-color-white;
 @extend .u-background-grey-60;
 }
@@ -153,12 +154,12 @@
 @extend .u-color-grey-60;
 }
 
-.Entrypoint-item.Entrypoint-Grey:active {
+.Entrypoint-item.Entrypoint-Grey.active {
 @extend .u-background-grey-80;
 @extend .u-color-grey-80;
 }
 
-.Entrypoint-item.Entrypoint-Grey:active a {
+.Entrypoint-item.Entrypoint-Grey.active a {
 @extend .u-color-white;
 @extend .u-background-grey-80;
 }
@@ -182,12 +183,12 @@
   background: var(--Color-teal-50) !important;
 }
 
-.Entrypoint-item.Entrypoint-Teal:active {
+.Entrypoint-item.Entrypoint-Teal.active {
   background: var(--Color-teal-30) !important;
   color: var(--Color-teal-30) !important;
 }
 
-.Entrypoint-item.Entrypoint-Teal:active a {
+.Entrypoint-item.Entrypoint-Teal.active a {
   color: white !important;
   background: var(--Color-teal-30) !important;
 }
@@ -208,17 +209,26 @@
 }
 
 .Content_entrypointIco {
-    margin-top: 4.5rem!important;
+    margin-top: .5rem!important;
 }
 
-.SvgBanner svg{ 
+.Entrypoint-item .SvgBanner svg{
 	fill: var(--Color-50); 
-	width:30%;
+	width: 50%;
 }
 
+.Entrypoint-item.active .SvgBanner svg {
+  fill: white !important;
+}
 
+.CustomGreyEntryPoint {
+  background: #BCC0CC;
+  cursor: pointer;
+}
 
-
+.CustomGreyEntryPoint:hover {
+  background: var(--Color-grey-50);
+}
 
 
 

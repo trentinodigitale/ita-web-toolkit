@@ -52,6 +52,7 @@
   @extend .u-padding-bottom-s;
   @extend .u-padding-right-xl;
   @extend .u-padding-left-xl;
+  white-space: nowrap;
 }
 
 .Megamenu-item:first-child > a {
