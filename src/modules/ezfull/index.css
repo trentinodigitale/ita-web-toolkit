@@ -93,7 +93,7 @@
 }
 
 .u-content .u-content-main .u-content-title h1 {
-  @extend .u-color-grey-60;
+  @extend .u-color-50;
   @extend .u-margin-top-xxxl;
   @extend .u-margin-bottom-l;
   font-size: 3.2rem !important;
