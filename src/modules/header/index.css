@@ -12,7 +12,7 @@
   --Header-search-maxWidth: 20em;
 }
 
-.Header {
+.Header-fixed {
   position: fixed;
   top:0;
   width: 100%;
@@ -501,7 +501,19 @@
   }
 
   @media (--md-viewport), (--lg-viewport) {
-    margin-top: 170px;
+    margin-top: 110px;
+  }
+}
+
+.u-bodyLogin {
+  margin-top: 106px;
+
+  @media (--sm-viewport) {
+    margin-top: 155px;
+  }
+
+  @media (--md-viewport), (--lg-viewport) {
+    margin-top: 230px;
   }
 
 }
