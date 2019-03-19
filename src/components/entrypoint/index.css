@@ -51,7 +51,7 @@
 
 /* InverseColor */
 .EntryPointInverseColor {
-  background-color: var(--Color-95) !important;
+  background-color: var(--Color-95);
 }
 
 .EntryPointInverseColor .Entrypoint-item {
@@ -68,13 +68,13 @@
 	@extend .u-color-50;
 }
 
-.EntryPointInverseColor .Entrypoint-item:active {
-  background-color: var(--Color-50) !important;
+.EntryPointInverseColor .Entrypoint-item.active {
+  background-color: var(--Color-5) !important;
   color: var(--Color-teal-30) !important;
 }
 
 .EntryPointInverseColor .Entrypoint-item:hover {
-  background-color: var(--Color-80) !important;
+  background-color: var(--Color-80);
   border-color: var(--Color-grey-50) !important;
 }
 
@@ -109,11 +109,11 @@
 @extend .u-color-70;
 }
 
-.Entrypoint-item.Entrypoint-Primary:active {
+.Entrypoint-item.Entrypoint-Primary.active {
   background: white !important;
 }
 
-.Entrypoint-item.Entrypoint-Primary:active a {
+.Entrypoint-item.Entrypoint-Primary.active a {
 @extend .u-color-50;
 @extend .u-background-white;
 }
@@ -128,12 +128,12 @@
 @extend .u-color-grey-20;
 }
 
-.Entrypoint-item.Entrypoint-InfoGrey:active {
+.Entrypoint-item.Entrypoint-InfoGrey.active {
 @extend .u-background-grey-60;
 @extend .u-color-grey-60;
 }
 
-.Entrypoint-item.Entrypoint-InfoGrey:active a {
+.Entrypoint-item.Entrypoint-InfoGrey.active a {
 @extend .u-color-white;
 @extend .u-background-grey-60;
 }
@@ -153,12 +153,12 @@
 @extend .u-color-grey-60;
 }
 
-.Entrypoint-item.Entrypoint-Grey:active {
+.Entrypoint-item.Entrypoint-Grey.active {
 @extend .u-background-grey-80;
 @extend .u-color-grey-80;
 }
 
-.Entrypoint-item.Entrypoint-Grey:active a {
+.Entrypoint-item.Entrypoint-Grey.active a {
 @extend .u-color-white;
 @extend .u-background-grey-80;
 }
@@ -182,12 +182,12 @@
   background: var(--Color-teal-50) !important;
 }
 
-.Entrypoint-item.Entrypoint-Teal:active {
+.Entrypoint-item.Entrypoint-Teal.active {
   background: var(--Color-teal-30) !important;
   color: var(--Color-teal-30) !important;
 }
 
-.Entrypoint-item.Entrypoint-Teal:active a {
+.Entrypoint-item.Entrypoint-Teal.active a {
   color: white !important;
   background: var(--Color-teal-30) !important;
 }
