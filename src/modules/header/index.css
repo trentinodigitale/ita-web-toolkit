@@ -487,7 +487,7 @@
 
 .Header-progress .u-progress-bar {
   height: .5rem;
-  background: var(--Color-teal-30);
+  background: #C9D121;
   width: 0%;
 }
 
