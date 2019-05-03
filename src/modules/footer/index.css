@@ -116,3 +116,11 @@
   background-color: var(--Footer-color-link);
   color: var(--Footer-background-color);
 }
+
+.Linkedin {
+  display: block;
+  background-color: #65dcdf;
+  color: #00264d;
+  padding: .6rem .7rem;
+  border-radius: 100%;
+}
