@@ -166,7 +166,8 @@
 
 .Header-titleLink a {
   @extend .u-inlineBlock;
-  @extend .u-text-xs;
+  @extend .build.css;
+  @extend .u-text-xxs;
   @extend .u-text-sm-m;
   @extend .u-text-md-l;
   @extend .u-text-lg-l;
@@ -184,9 +185,6 @@
   @extend .u-textWeight-400;
   @extend .u-lineHeight-s;
   @extend .u-textClean;
-  @extend .u-hidden;
-  @extend .u-md-inline;
-  @extend .u-lg-inline;
 
   color: var(--Header-text-color);
 }
@@ -433,6 +431,7 @@
   @extend .u-text-md-s;
   @extend .u-text-lg-m;
   @extend .u-textWeight-400;
+
 }
 
 .Headroom--fixed.Headroom--not-top .Header-toggleText,
