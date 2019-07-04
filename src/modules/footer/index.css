@@ -119,7 +119,7 @@
 
 .Linkedin {
   display: block;
-  background-color: #65dcdf;
+  background-color: var(--Footer-color-link) !important;
   color: #00264d;
   padding: .6rem .7rem;
   border-radius: 100%;
