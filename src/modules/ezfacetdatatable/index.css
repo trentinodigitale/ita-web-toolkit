@@ -144,7 +144,6 @@
 
 .u-facet .u-facet-form .Facet-accordion span {
   @extend .u-text-h4;
-  margin-left:-9rem;
 }
 
 
@@ -152,6 +151,10 @@
   .u-facet .u-facet-form .Facet-accordion {
     margin-left: -5rem;
     margin-right: -5rem;
+  }
+
+  .u-facet .u-facet-form .Facet-accordion span {
+    margin-left:-9rem;
   }
 }
 
