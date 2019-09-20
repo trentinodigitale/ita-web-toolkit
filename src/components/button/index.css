@@ -200,3 +200,8 @@
   font-size: 1.3rem !important;
   padding: 0.3em 0.5em !important;
 }
+
+
+.Button--disabled {
+  background-color: var(--Color-grey-10) !important;
+}
