@@ -134,8 +134,6 @@
   @extend .u-background-grey-30;
 
   cursor:pointer;
-  margin-left: -5rem;
-  margin-right: -5rem;
 }
 
 .u-facet .u-facet-form .Facet-accordion a {
@@ -147,6 +145,14 @@
 .u-facet .u-facet-form .Facet-accordion span {
   @extend .u-text-h4;
   margin-left:-9rem;
+}
+
+
+@media (--lg-viewport) {
+  .u-facet .u-facet-form .Facet-accordion {
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
 }
 
 .u-facet .u-facet-table {
