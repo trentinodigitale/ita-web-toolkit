@@ -83,6 +83,10 @@ option:hover {
   background: var(--Form-label-checked-background);
 }
 
+.class-whistleblowing .Form-label.is-checked {
+	background-color: #bcc0cc;
+}
+
 .Form-field.is-invalid .Form-input,
 .Form-field.is-warning .Form-input {
   border-width: var(--Form-border-width);

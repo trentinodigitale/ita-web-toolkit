@@ -212,3 +212,11 @@
 .button-menu:hover {
   text-decoration: underline;
 }
+
+.class-whistleblowing .Button{
+	background-color: #0092d4 !important; 
+	color: white !important; 
+	font-size: 2rem !important;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
