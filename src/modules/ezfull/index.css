@@ -361,3 +361,139 @@
   padding-left: 2.5em;
   padding-top: 1.3em;
 }
+
+/***************************** CAMPAGNA CFP  **************************** */
+
+.orientamento {
+  border-left: 12px solid #f4ba50;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  color: #707070;
+
+  margin-bottom: -3.2rem;
+  padding-bottom: 8rem;
+}
+
+.orientamento .titolo {
+  font-size: 10rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #e7ba48;
+  line-height: 1;
+}
+
+.orientamento .titolo-piccolo {
+  font-size: 6rem;
+  font-weight: bolder;
+  color: #e7ba48;
+  line-height: 1;
+}
+
+.orientamento .sottotitolo {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.orientamento .sottotitolo-piccolo {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.orientamento .descrizione {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.orientamento .video-container iframe {
+  width: 100%;
+}
+
+.orientamento .video-url a {
+  color: #e7ba48 !important;
+}
+
+.orientamento .orientamento_mestieri {
+  background-color: #707070;
+  color: #fff;
+  margin-right: -10rem;
+  margin-left: -10rem;
+
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.orientamento .orientamento_mestieri .first_level {
+  @extend .u-margin-bottom-m;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+
+.orientamento .orientamento_mestieri .second_level {
+  @extend .u-margin-bottom-s;
+  font-weight: bolder;
+  font-size: 2.4rem;
+  display: none;
+  cursor: pointer;
+}
+
+.orientamento .orientamento_mestieri .third_level {
+  @extend .u-margin-bottom-xs;
+  font-weight: bolder;
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+.orientamento .orientamento_mestieri .third_level a {
+  color: #e7ba48 !important;
+}
+
+.orientamento .orientamento_mestieri .first_level:hover {
+  text-decoration: underline;
+}
+.orientamento .orientamento_mestieri .second_level:hover {
+  text-decoration: underline;
+}
+.orientamento .orientamento_mestieri .third_level:hover {
+  text-decoration: underline;
+}
+
+.orientamento .orientamento_mestieri .selected {
+  color: #e7ba48 !important;
+}
+
+.orientamento .orientamento_mestieri .active {
+  display: block !important;
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .orientamento {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .orientamento .titolo {
+    font-size: 7rem;
+  }
+
+  .orientamento .sottotitolo {
+    font-size: 3rem;
+  }
+
+  .orientamento .titolo-piccolo {
+    font-size: 4rem;
+  }
+
+  .orientamento .orientamento_mestieri {
+    margin-right: 0;
+    margin-left: 0;
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
