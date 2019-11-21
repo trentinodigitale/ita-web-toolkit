@@ -10,6 +10,18 @@
     url("../fonts/ita.svg?v1#ita") format("svg");
 }
 
+@font-face {
+  font-family: "Aileron-Black";
+  src: url("../fonts/Aileron-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Aileron-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Aileron-Black.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/Aileron-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/Aileron-Black.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Aileron-Black.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .Icon,
 [class^="Icon-"],
 [class*=" Icon-"] {

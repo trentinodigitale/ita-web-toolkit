@@ -361,3 +361,201 @@
   padding-left: 2.5em;
   padding-top: 1.3em;
 }
+
+/***************************** CAMPAGNA CFP  **************************** */
+
+.orientamento {
+  border-left: 12px solid #E6BE46;
+  padding-top: 5rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  color: #707070;
+
+  margin-bottom: -3.2rem;
+  padding-bottom: 8rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.orientamento .titolo {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 8.5rem;
+  text-decoration: underline;
+  color: #E6BE46;
+  line-height: 1;
+}
+
+.orientamento .titolo-piccolo {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 5.3rem;
+  font-weight: bolder;
+  color: #E6BE46;
+  line-height: 1;
+}
+
+.orientamento .sottotitolo {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.orientamento .sottotitolo-piccolo {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.orientamento .descrizione {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.orientamento .video-container iframe {
+  width: 100%;
+}
+
+.orientamento .video-url a {
+  color: #e7ba48 !important;
+}
+
+.orientamento .orientamento_mestieri {
+  background-color: #707070;
+  color: #fff;
+  margin-right: -10rem;
+  margin-left: -10rem;
+
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.orientamento .orientamento_mestieri .mestiere {
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.orientamento .orientamento_mestieri .mestiere h3 {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 2.5rem;
+}
+
+.orientamento .orientamento_mestieri .mestiere .dettaglio {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 1.6rem;
+  color: #F4BA50;
+}
+
+.orientamento .orientamento_mestieri .scuole {
+  font-size: 1.4rem;
+}
+
+.orientamento .orientamento_mestieri .scuole a {
+  color: #fff !important;
+}
+
+.orientamento .orientamento_mestieri .scuole strong {
+  font-family: 'Aileron-Black', sans-serif;
+}
+
+.orientamento .orientamento_mestieri .scuole p {
+  display: inline;
+}
+
+.orientamento .padding-left-12 {
+  padding-left: 12rem!important;
+}
+
+.orientamento .relative {
+  position: relative;
+}
+
+.orientamento .absolute-bottom {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.video {
+  font-family: 'Aileron-Black';
+  font-size: 1.5rem;
+}
+
+.video h3 {
+  font-family: 'Aileron-Black';
+  font-size: 2.6rem;
+}
+
+.orientamento_campagna .titolo {
+  font-family: 'Aileron-Black', sans-serif;
+  font-size: 7.5rem;
+  color: #E6BE46;
+}
+@media (--xs-viewport), (--sm-viewport), (--md-viewport) {
+
+  .orientamento .absolute-bottom {
+    position: static;
+    bottom: auto;
+    margin-top: 2rem;
+  }
+
+}
+
+@media (--xs-viewport), (--sm-viewport) {
+
+  .orientamento {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .orientamento .titolo {
+    font-size: 7rem;
+  }
+
+  .orientamento .sottotitolo {
+    font-size: 3rem;
+  }
+
+  .orientamento .titolo-piccolo {
+    font-size: 4rem;
+  }
+
+  .orientamento .orientamento_mestieri {
+    margin-right: 0;
+    margin-left: 0;
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .video-2 {
+    display: none;
+  }
+
+  .video-3 {
+    display: none;
+  }
+
+  .video-4 {
+    display: none;
+  }
+
+  .orientamento .padding-left-12 {
+    padding-left: 2rem !important;
+  }
+
+  .orientamento .orientamento_mestieri .scuole {
+    padding-left: 4rem;
+  }
+
+  .orientamento_campagna {
+    padding: 0 2rem;
+  }
+
+  .orientamento_maestro {
+    padding: 0 2rem;
+  }
+
+
+}
