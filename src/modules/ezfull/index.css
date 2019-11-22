@@ -492,6 +492,15 @@
   font-size: 7.5rem;
   color: #E6BE46;
 }
+
+.campagna_info {
+  margin-top: 8.5rem;
+}
+
+.campagna_info p {
+  margin-top: 2rem;
+}
+
 @media (--xs-viewport), (--sm-viewport), (--md-viewport) {
 
   .orientamento .absolute-bottom {
