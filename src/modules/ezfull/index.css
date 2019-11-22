@@ -494,7 +494,7 @@
 }
 
 .campagna_info {
-  margin-top: 8.5rem;
+  margin-top: 6rem;
 }
 
 .campagna_info p {
@@ -564,6 +564,10 @@
 
   .orientamento_maestro {
     padding: 0 2rem;
+  }
+
+  .logo_pat {
+    margin-top: 2rem;
   }
 
 
