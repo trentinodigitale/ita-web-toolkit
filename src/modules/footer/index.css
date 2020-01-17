@@ -111,7 +111,7 @@
   @extend .u-borderRadius-circle;
   @extend .u-text-r-s;
 
-  background-color: #6EC05E;
+  background-color: var(--Color-site-4);
   color: rgb(255, 255, 255);
 }
 
@@ -121,4 +121,13 @@
 
 .TopFooter-Bg{
     background-color: var(--TopFooter-Bg);
+}
+
+.Footer-socialIcons_A{
+	display: block;
+	background: var(--Color-site-4);
+	padding: 1rem;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
 }
