@@ -175,9 +175,13 @@
   }
 
   .Treeview--ez .Treeview-handler--standalone {
-    margin-left: 10rem !important;
+    margin-left: 10rem;
   }
 
+  .next-margin-2 + span{
+	margin-left:2rem!important;
+  }
+  
   .Treeview--ez ul .Treeview-handler--standalone {
     margin-left: 20rem !important;
     background-position-x: 2rem;
