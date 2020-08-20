@@ -145,9 +145,9 @@
   }
   
   .Treeview--ez .Treeview-Item {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important; 
-  }
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+   }
 
   .Treeview--ez ul .Treeview-Item {
     margin-left: 7rem !important;
@@ -155,52 +155,74 @@
   }
 
   .Treeview--ez ul ul .Treeview-Item {
-    margin-left: 14rem !important;
-    margin-right: 14rem !important;
+    margin-left: 18rem !important;
+    margin-right: 18rem !important;
   }
 
   .Treeview--ez ul ul ul .Treeview-Item {
-    margin-left: 21rem !important;
-    margin-right: 21rem !important;
+    margin-left: 17rem !important;
+    margin-right: 17rem !important;
   }
 
   .Treeview--ez ul ul ul ul .Treeview-Item {
-    margin-left: 28rem !important;
-    margin-right: 28rem !important;
+    margin-left: 31rem !important;
+    margin-right: 31rem !important;
   }
 
   .Treeview--ez ul ul ul ul ul .Treeview-Item {
-    margin-left: 35rem !important;
-    margin-right: 35rem !important;
+    margin-left: 29rem !important;
+    margin-right: 29rem !important;
+  }
+  
+  .Treeview--ez ul ul ul ul ul ul .Treeview-Item {
+    margin-left: 43rem !important;
+    margin-right: 43rem !important;
+
   }
 
+  
   .Treeview--ez .Treeview-handler--standalone {
     margin-left: 10rem;
   }
 
   .next-margin-2 + span{
-	margin-left:2rem!important;
+	margin-left:0!important;
   }
   
+  .next-margin-2f + span{
+    margin-left:1rem!important;
+  }
+   
   .Treeview--ez ul .Treeview-handler--standalone {
-    margin-left: 20rem !important;
-    background-position-x: 2rem;
+    background-position: 1.1rem;
+    background-position-x: 1.1rem;
+
   }
 
   .Treeview--ez ul ul .Treeview-handler--standalone {
-    margin-left: 30rem !important;
+    background-position: 1.1rem;
+    background-position-x: 1.1rem;
   }
 
   .Treeview--ez ul ul ul .Treeview-handler--standalone {
-    margin-left: 40rem !important;
+    background-position: 1.1rem;
+    background-position-x: 1.1rem;
   }
   
   .Treeview--ez ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 50rem !important;
+    background-position-x: 11rem;
+    padding-left: 24rem;
+
   }
 
   .Treeview--ez ul ul ul ul ul .Treeview-handler--standalone {
-    margin-left: 60rem !important;
+    background-position-x: 11rem;
+    padding-left: 35rem;
+  }
+  
+  .Treeview--ez ul ul ul ul ul ul ul .Treeview-handler--standalone {
+    background-position: 1.1rem;
+    background-position-x: 1.1rem;
   }
 
 }
