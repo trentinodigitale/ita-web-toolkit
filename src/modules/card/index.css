@@ -63,8 +63,8 @@
 /* modifiche omar */
 
 body .Card-content {
-    min-height: 2rem;
-    max-height: 8rem;
+    min-height: 11rem;
+    max-height: 15rem;
     background-color: #eaebec!important;
     padding: 0.7em !important;
 }
