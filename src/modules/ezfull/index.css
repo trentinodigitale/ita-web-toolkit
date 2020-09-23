@@ -276,4 +276,13 @@ body .Header-titleLink a:hover {
   }
   
 }
+
+/* custom faq accordion */
+.class-folder .u-content-main .Accordion  h2 {
+  margin-top: 0!important;
+  font-size: 1.9rem!important;
+}
+
+
+
   
