@@ -482,3 +482,28 @@ body .Header-toggle {
   }
 
 }
+
+@media (--sm-viewport) {
+
+    #ezwt-ezlogo {
+        visibility: hidden !important;
+    }
+
+    #ezwt-ooaction {
+        visibility: hidden !important;
+    }
+}
+
+@media (--xs-viewport) {
+
+  div#ezwt div.ezwt-actiongroup {
+        display: flex !important;
+    }
+    #ezwt-ezlogo {
+        visibility: hidden !important;
+    }
+
+    #ezwt-ooaction {
+        visibility: hidden !important;
+    }  
+}
