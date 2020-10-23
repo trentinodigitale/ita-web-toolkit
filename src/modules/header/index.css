@@ -486,3 +486,49 @@ body .Header-title {
   }
 
 }
+
+@media (--md-viewport) {
+
+	div#ezwt-content{
+        text-align: left!important;
+    }
+	#ezwt-content{
+		padding: 0px 0px!important;
+	}	
+    #ezwt-ezlogo {
+       display: none!important;
+    }
+
+    #ezwt-ooaction {
+        display: none!important;
+		visibility: hidden!important;
+
+    }
+}
+
+@media (--xs-viewport) {
+
+  div#ezwt div.ezwt-actiongroup {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    #ezwt-ezlogo {
+       display: none!important;
+
+    }
+
+    div#ezwt-ooaction{
+        position: absolute;
+        visibility:hidden;
+        display:none;
+        display: none!important;
+        visibility: hidden!important;
+    } 
+	#ezwt-content{
+		padding: 0px 0px!important;
+	}	
+}
+
+
