@@ -483,27 +483,49 @@ body .Header-toggle {
 
 }
 
-@media (--sm-viewport) {
 
+@media (--md-viewport) {
+
+	div#ezwt-content{
+        text-align: left!important;
+    }
+	#ezwt-content{
+		padding: 0px 0px!important;
+	}	
     #ezwt-ezlogo {
-        visibility: hidden !important;
+       display: none!important;
     }
 
     #ezwt-ooaction {
-        visibility: hidden !important;
+        display: none!important;
+		visibility: hidden!important;
+
     }
 }
 
 @media (--xs-viewport) {
 
   div#ezwt div.ezwt-actiongroup {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
     #ezwt-ezlogo {
-        visibility: hidden !important;
+       display: none!important;
+
     }
 
-    #ezwt-ooaction {
-        visibility: hidden !important;
-    }  
+    div#ezwt-ooaction{
+        position: absolute;
+        visibility:hidden;
+        display:none;
+        display: none!important;
+        visibility: hidden!important;
+
+    } 
+	#ezwt-content{
+		padding: 0px 0px!important;
+	}	
 }
+
