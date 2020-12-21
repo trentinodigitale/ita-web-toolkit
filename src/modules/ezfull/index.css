@@ -338,9 +338,10 @@
 .accordion_faq_concorso h4 {
 	font-size: 1.9rem!important;
 }
+
 .accordion_response{
 	padding-left: 1.5em;
-	font-size: 1.35rem!important;
+	font-size: 1em!important;
 }
 .accordion_response  ul{	
 	list-style: square;
