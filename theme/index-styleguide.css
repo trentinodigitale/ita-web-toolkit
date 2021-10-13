@@ -9,6 +9,7 @@
 @import "../src/components/prose";
 
 @import "../src/modules/accordion";
+@import "../src/modules/timeline";
 @import "../src/modules/hamburger";
 @import "../src/modules/header";
 @import "../src/modules/linklist";

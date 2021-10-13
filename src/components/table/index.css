@@ -213,3 +213,90 @@
   border-top: 1px solid var(--Table-border-color) !important;
 }
 
+/*Ez_Responsive_Mobile*/
+/*Ez_Responsive_Mobile*/
+/*Ez_Responsive_Mobile*/
+@media (max-width: 1365px) {
+
+		.Ez_Responsive_Mobile td:first-child{
+			background-image:-webkit-gradient(linear,left top,right top,color-stop(0%,#fff),to(hsla(0,0%,0%,0)));
+			background-image:-webkit-linear-gradient(left,#fff 50%,hsla(0,0%,0%,0));
+			background-image:linear-gradient(90deg,#fff 0%,hsla(0,0%,0%,0));
+			background-repeat:no-repeat;
+			background-size:0px 0%}
+		.Ez_Responsive_Mobile td:last-child{
+			background-image:-webkit-gradient(linear,left top,right top,color-stop(0%,#fff),to(hsla(0,0%,0%,0)));
+			background-image:-webkit-linear-gradient(left,#fff 50%,hsla(0,0%,0%,0));
+			background-image:linear-gradient(90deg,#fff 0%,hsla(0,0%,0%,0));
+			background-repeat:no-repeat;
+			background-size:0px 0%}
+
+		.Ez_Responsive_Mobile{
+			border: 0.5px;
+			border-style: solid;
+			white-space: unset;
+			border-color: #c7ddef!important;
+		}
+		.Ez_Responsive_Mobile {
+			background: -webkit-radial-gradient(left, ellipse, rgba(0, 0, 0, .2) 0, transparent 0%) 0,
+						-webkit-radial-gradient(right, ellipse, rgba(0, 0, 0, .2) 0, transparent 0%) 100%;
+		}
+
+		.Ez_Responsive_Mobile thead {
+			display: none;
+		}
+
+		.Ez_Responsive_Mobile,
+		.Ez_Responsive_Mobile tbody,
+		.Ez_Responsive_Mobile tr,
+		.Ez_Responsive_Mobile td {
+			display: block;
+			width: 100%;
+			white-space: unset;
+		}
+		.Ez_Responsive_Mobile tr {
+			margin-bottom: 2px;
+		}
+		.Ez_Responsive_Mobile td {
+			padding: .4em!important;
+			box-sizing: inherit;
+			text-align: left;
+			position: relative;
+
+		}
+		.Ez_Responsive_Mobile td::before {
+			content: attr(data-label);
+			position: absolute;
+			left: 0;
+			width: 50%;
+			padding-left: 15px;
+			font-size: 15px;
+			font-weight: normal;
+			text-align: left;
+		}
+	}
+
+	/* Tablet in modalità orizzontale */
+	@media all and (min-width: 737px) and (max-width: 1365px) {
+		.Ez_Responsive_Mobile td {
+			padding-left: 23%!important;
+		}
+	}
+
+	/* Tablet in modalità verticale */
+	@media all and (min-width: 481px) and (max-width: 736px) {
+		.Ez_Responsive_Mobile td {
+			padding-left: 30%!important;
+		}
+	}
+
+	/* Smartphone o piccoli Tablet */
+	@media all and (max-width: 480px) {
+		.Ez_Responsive_Mobile td {
+			padding-left: 50%!important;
+		}
+	}
+
+/*Ez_Responsive_Mobile*/
+/*Ez_Responsive_Mobile*/
+/*Ez_Responsive_Mobile*/
