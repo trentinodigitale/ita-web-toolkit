@@ -239,6 +239,10 @@
   color: color(var(--Color-primary) l(-25%)) !important;
 }
 
+.u-color-99 {
+  color: color(var(--Color-99)) !important;
+}
+
 .u-background-95 {
   background-color: color(var(--Color-primary) l(-25%)) !important;
 }
