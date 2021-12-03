@@ -127,6 +127,10 @@
   background-color: var(--Color-grey-90) !important;
 }
 
+.u-color-99 {
+  color: color(var(--Color-99)) !important;
+}
+
 /* Link / buttons */
 
 .u-color-teal-30 {

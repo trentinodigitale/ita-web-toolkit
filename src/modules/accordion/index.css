@@ -40,7 +40,7 @@
 }
 
 .Accordion-link {
-  @extend .u-color-50;
+  @extend .u-color-80;
 }
 
 .Accordion-link--leaf {
